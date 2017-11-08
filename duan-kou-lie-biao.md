@@ -10,10 +10,12 @@
 8. universal\_backend 6000
 9. etl 7000
 10. bidspy 12000
+11. assets 9997 (静态服务器)
 
 ## 研发环境地址
 gitlab: http://10.142.55.199:50080/
 mirror: http://10.142.55.199:5009
+assets: http://10.142.55.199:9997
 
 ## 镜像列表
 
