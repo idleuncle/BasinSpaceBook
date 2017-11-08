@@ -22,6 +22,13 @@
 * [国家大数据平台测评标准分析](guo-jia-da-shu-ju-ping-tai-ce-ping-biao-zhun.md)
 * [华为FusionInsight平台分析](hua-wei-fusioninsight-ping-tai-fen-xi.md)
 
+## BasinSpace手册
+
+* [1. Development](manual/1. Development.md)
+* [2. Packaging](manual/2. Packaging.md)
+* [3. Deployment](manual/3. Deployment.md)
+
+
 ## 从零开始构建BasinSpace
 
 * [前言](cong-ling-kai-shi-gou-jian-basinspace.md)
