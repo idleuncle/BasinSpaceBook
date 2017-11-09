@@ -28,11 +28,9 @@
 * [2. Packaging](manual/2. Packaging.md)
 * [3. Deployment](manual/3. Deployment.md)
 
-
 ## 从零开始构建BasinSpace
 
 * [前言](cong-ling-kai-shi-gou-jian-basinspace.md)
-* [端口镜像列表](duan-kou-lie-biao.md)
 * [系统环境信息](xi-tong-huan-jing.md)
 * [招标公告订阅演示应用](zhao-biao-gong-gao-ding-dan-xi-tong.md)
 * [版本发布与部署\[标准\]](ban-ben-fa-bu-yu-bu-shu.md)
