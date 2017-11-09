@@ -6,7 +6,7 @@ digraph G{
         {
             rankdir = LR;
             subscribe_project [label="订阅项目"];
-            subscribe_service [label="订阅服务syny" shape=polygon, sides=6, peripheries=2, color=lightblue, style=filled];
+            subscribe_service [label="订阅服务" shape=polygon, sides=6, peripheries=2, color=lightblue, style=filled];
             subscribe_project -> subscribe_service [label="启动"];
         }
     }
