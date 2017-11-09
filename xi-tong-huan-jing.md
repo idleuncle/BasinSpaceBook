@@ -23,6 +23,7 @@
 外网:
 
 * gitbook: http://115.28.208.122:16689/
+* trello: https://trello.com/b/lY0uCQ2q/basinspace
 
 ## 镜像列表
 
