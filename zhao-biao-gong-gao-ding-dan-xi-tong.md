@@ -2,7 +2,7 @@
 
 从互联网公开的招标网站定期爬取招标公告，从网页文本中抽取招标公告的关键指标数据（包括招标项目、招标单位、投标时间、投标资质等），为订阅用户提供指定范围（行业、项目性质等）招标信息的主动推送订阅服务。
 
-![](/assets/bidspy.png)
+![](/graphics/bidspy.png)
 
 [dot文件](https://www.gitbook.com/book/basinspace/basin-space-knowledges/edit#/edit/master/bidspy.dot?_k=qqf2tx) \(dot -Tpng bidspy.dot -o bidspy.png\) [Graphviz Documentation](http://www.graphviz.org/Documentation.php), [Attributes](http://www.graphviz.org/content/attrs), [Node Shapes](http://www.graphviz.org/content/node-shapes#html), [Arrow Shapes](http://www.graphviz.org/content/arrow-shapes), [Colors](http://www.graphviz.org/content/color-names)
 
