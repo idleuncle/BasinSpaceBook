@@ -53,7 +53,7 @@
   * 启动:
       start\_registry.sh 
   * 停止:
-      stop\_registry.sh
+      stop_registry.sh
 
 * jenkins: jenkins\(暂定\)
 
