@@ -28,3 +28,10 @@ gitbook.com 在使用过程中,发现用户体验较不理想.
 
 ## 备选
 1. 也可以迁移到新搭建的gitlab上,但是gitbook暂时无法和gitlab对接. 搭建gitbook服务自带导出pdf功能.没有gitbook.com上导出pdf功能效果好.
+
+---
+## 项目迁移到github
+### 使用说明
+1. git clone https://github.com/idleuncle/BasinSpaceBook.git
+2. 使用gitbook 导入git clone到本地的BasinSpaceBook,可以使用gitbook编辑,并提交
+3. 浏览地址: http://10.142.55.199:4000
