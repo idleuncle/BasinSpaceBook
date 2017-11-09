@@ -31,7 +31,7 @@
 ## 从零开始构建BasinSpace
 
 * [前言](cong-ling-kai-shi-gou-jian-basinspace.md)
-* [系统环境信息](xi-tong-huan-jing.md)
+* [研发环境系统信息](xi-tong-huan-jing.md)
 * [招标公告订阅演示应用](zhao-biao-gong-gao-ding-dan-xi-tong.md)
 * [版本发布与部署\[标准\]](ban-ben-fa-bu-yu-bu-shu.md)
 * [源码的发布与安装测试](fa-bu-ce-shi.md)
