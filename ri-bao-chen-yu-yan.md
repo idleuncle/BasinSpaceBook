@@ -63,13 +63,11 @@
 
 3. 外部依赖管理, 整体部署测试
 
-
-
 # 2017-11-09
 
 1. 文档修改， 综合几个python web service的依赖， 制作基础镜像
 
-2. docker registry webui ,  
+2. 由脚本进行环境变量设置（没有办法直接反应的终端，需要用户自己执行）， docker registry webui 
 
 3. 外部依赖管理, 整体部署测试
 
