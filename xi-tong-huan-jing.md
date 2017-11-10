@@ -1,23 +1,29 @@
-
 ## 端口列表
 
-2. ~~Harbor 8000~~
-3. private registry 5006
-4. mirror registry 5009
-5. jenkins 9002
-6. pyspider 5000
-7. basin-spider 5001
-8. universal\_backend 6000
-9. etl 7000
-10. bidspy 12000
-11. assets 9997 (静态服务器)
+1. ~~Harbor 8000~~
+2. private registry 5006
+3. mirror registry 5009
+4. jenkins 9002
+5. pyspider 5000
+6. basin-spider 5001
+7. universal\_backend 6000
+8. etl 7000
+9. bidspy 12000
+10. assets 9997 \(静态服务器\)
 
 ## 研发环境地址
 
-+ gitlab: http://10.142.55.199:50080
-+ mirror: http://10.142.55.199:5009
-+ assets: http://10.142.55.199:9997
-+ private_registry: http://10.142.55.199:5006
+内网:
+
+* gitlab: [http://10.142.55.199:50080](http://10.142.55.199:50080)
+* mirror: [http://10.142.55.199:5009](http://10.142.55.199:5009)
+* assets: [http://10.142.55.199:9997](http://10.142.55.199:9997)
+* private\_registry: [http://10.142.55.199:5006](http://10.142.55.199:5006)
+
+外网:
+
+* gitbook: http://115.28.208.122:16689/
+* trello: https://trello.com/b/lY0uCQ2q/basinspace
 
 ## 镜像列表
 
@@ -31,7 +37,6 @@
 8. mongo 3.0.15
 9. python:2.7-alpine
 10. python:2
-
 
 ## 系统环境启停列表
 
@@ -54,7 +59,7 @@
   * 启动:
       start\_registry.sh 
   * 停止:
-      stop_registry.sh
+      stop\_registry.sh
 
 * jenkins: jenkins\(暂定\)
 

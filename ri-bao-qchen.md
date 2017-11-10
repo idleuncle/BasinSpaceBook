@@ -9,3 +9,18 @@
 1. docker-book 迁移至内网
 2. 静态web 资料站点,建立以及静态资料获取(docke等)
 3. 外部依赖管理, 脚本修复
+
+## 2017-11-08
+1. bidspy build vagrant 测试以及脚本调整
+2. pyspider 提供函数库定义
+
+## 2017-11-09
+1. spider爬虫->[2]docker 精简
+    + pyspider docker 精简,由原来800M.精简大约400M,其中pyantomjs 无法在alpine中运行,需要查找安装包.
+2. Packaging->[3]部署服务器搭建
+    + docker container 编译部署镜像  
+        + 测试docker 中编译.就需要在docker container 中build Dockerfile, (docker in docker) 比较麻烦,暂时放弃.
+    + varant 部署镜像
+        + dockerd & 远程启动失败.
+3. 分析基础镜像部署依赖包,列出依赖包.
+    

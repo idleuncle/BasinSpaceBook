@@ -10,10 +10,10 @@
 * [gitbook替代方案](gitbookti-dai-fang-an.md)
 * [源码迁移步骤](yuan-ma-qian-yi-bu-zou.md)
 * [日报 - 陈予言](ri-bao-chen-yu-yan.md)
+* [日报 - 陈牵](ri-bao-qchen.md)
 
 ## Basin平台研发日志
 
-* [日报qchen](ri-bao-qchen.md)
 * [待解决问题](dai-jie-jue-wen-ti.md)
 * [研发思路](yan-fa-si-lu.md)
 * [产品就绪标准](chan-pin-jiu-xu-biao-zhun.md)
