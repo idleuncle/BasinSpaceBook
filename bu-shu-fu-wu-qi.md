@@ -21,6 +21,8 @@ pwd: vagrant
     curl -X POST http://jenkins:jenkins@115.28.208.122:17000/jenkins/job/build_bidspy/build
     ~~~
     
+    查看编译过程,登录web页面查看. 未来可配置邮件通知.
+    
 生成安装包文件: /root/workspace/build_bidspy/dist
 
 
