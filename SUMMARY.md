@@ -11,6 +11,7 @@
 * [源码迁移步骤](yuan-ma-qian-yi-bu-zou.md)
 * [日报 - 陈予言](ri-bao-chen-yu-yan.md)
 * [日报 - 陈牵](ri-bao-qchen.md)
+* [部署服务器](bu-shu-fu-wu-qi.md)
 
 ## Basin平台研发日志
 
