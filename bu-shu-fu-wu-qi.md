@@ -11,8 +11,7 @@ pwd: vagrant
 ## 部署操作说明
 + **web 操作**
     1. 登录: http://115.28.208.122:17000/jenkins
-账号: jenkins/jenkins
-
+    账号: jenkins/jenkins
     2. 点击编译项目 build_bidspy 进行编译.
 
 + **命令行操作**
