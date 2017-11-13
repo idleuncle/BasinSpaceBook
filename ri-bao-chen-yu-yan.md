@@ -1,12 +1,16 @@
 # 2017-11-13
 
 1. Packaging 10 
-2. 
-# 2017-11-10
+2. Packaging 6, 7, 10
+3. Packaging 6, 7
 
-1. Development 10 ,   Packaging 2
-2. Packaging 4 , 7, 8
-3. Packaging 4 , 7, 8
+4. Packaging 4
+
+5. # 2017-11-10
+6. Development 10 ,   Packaging 2
+
+7. Packaging 4 , 7, 8
+8. Packaging 4 , 7, 8
 
 # 2017-11-09
 
