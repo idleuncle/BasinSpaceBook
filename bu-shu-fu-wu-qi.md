@@ -6,16 +6,16 @@
 ## 2. 版本规划
 
 1. release 每日构建
-版本号: v20170101_001_gitlog
+    版本号: v20170101_001_gitlog
 2. stable 稳定版本
-v1.0.0_gitlog
-依据github 语义化版本
-版本格式：主版本号.次版本号.修订号，版本号递增规则如下：
+    v1.0.0_gitlog
+    依据github 语义化版本
+    版本格式：主版本号.次版本号.修订号，版本号递增规则如下：
 
-主版本号：当你做了不兼容的 API 修改，
-次版本号：当你做了向下兼容的功能性新增，
-修订号：当你做了向下兼容的问题修正。
-先行版本号及版本编译信息可以加到“主版本号.次版本号.修订号”的后面，作为延伸。
+    主版本号：当你做了不兼容的 API 修改，
+    次版本号：当你做了向下兼容的功能性新增，
+    修订号：当你做了向下兼容的问题修正。
+    先行版本号及版本编译信息可以加到“主版本号.次版本号.修订号”的后面，作为延伸。
 
 ## 部署流程
 
@@ -30,33 +30,33 @@ v1.0.0_gitlog
 
 ## 4. 部署项目
 + 单元测试
-+ basin-spdier 单元部署测试
-2. pyspider 单元部署测试
-3. pipline 单元部署测试
-4. extractor 单元部署测试
-5. repository 单元部署测试
+    + basin-spdier 单元部署测试
+    2. pyspider 单元部署测试
+    3. pipline 单元部署测试
+    4. extractor 单元部署测试
+    5. repository 单元部署测试
 + 基础镜像
-+ base_image 编译
-+ 集成部署测试
-+ 全部工程部署编译
-+ 集群测试
+    + base_image 编译
+    + 集成部署测试
+    + 全部工程部署编译
+    + 集群测试
 
 
 
 ## 5. 部署操作说明
 1. **web 操作**
-+ 登录: http://115.28.208.122:17000/jenkins
-账号: jenkins/jenkins
-+ 点击编译项目 build_bidspy 进行编译.
+    + 登录: http://115.28.208.122:17000/jenkins
+    账号: jenkins/jenkins
+    + 点击编译项目 build_bidspy 进行编译.
 
 2. **命令行操作**
-~~~
-启动编译命令
-curl -X POST http://jenkins:jenkins@115.28.208.122:17000/jenkins/job/build_bidspy/build
-查看编译过程,登录web页面查看. 未来可配置邮件通知.
-~~~
+    ~~~
+    启动编译命令
+    curl -X POST http://jenkins:jenkins@115.28.208.122:17000/jenkins/job/build_bidspy/build
+    查看编译过程,登录web页面查看. 未来可配置邮件通知.
+    ~~~
 3. 编译结果
-+ 部署包路径: http://10.142.55.199:9997/release
+    + 部署包路径: http://10.142.55.199:9997/release
 
 
 
