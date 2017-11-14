@@ -1,26 +1,29 @@
 ## 研发环境地址
 
-内网:
+- 内网服务:
 
-* gitlab: [http://10.142.55.199:50080](http://10.142.55.199:50080)
-* 镜像仓库: [http://10.142.55.199:5009](http://10.142.55.199:5009)
-* 资源服务: [http://10.142.55.199:9997](http://10.142.55.199:9997)
-* 私有仓库: [http://10.142.55.199:5006](http://10.142.55.199:5006)
-* release版本下载: http://10.142.55.199:9997/release
-* stable版本下载: http://10.142.55.199:9997/stable
+    * gitlab: [http://10.142.55.199:50080](http://10.142.55.199:50080)
+    * 镜像仓库: [http://10.142.55.199:5009](http://10.142.55.199:5009)
+    * 资源服务: [http://10.142.55.199:9997](http://10.142.55.199:9997)
+    * 私有仓库: http://10.142.55.199:5006
+    * 部署服务: http://10.142.55.199:8081/jenkins
 
+    * release版本下载: http://10.142.55.199:9997/release
+    * stable版本下载: http://10.142.55.199:9997/stable
+    
+- 外网服务:
 
-外网:
+    * gitbook: http://115.28.208.122:16689/
+    * trello: https://trello.com/b/lY0uCQ2q/basinspace
+    * 部署服务: 139.196.106.149:16399/jenkins
+    
 
-* gitbook: http://115.28.208.122:16689/
-* trello: https://trello.com/b/lY0uCQ2q/basinspace
 
 
 
 ## 端口列表
 
-1. ~~Harbor 8000~~
-2. private registry 5006
+1. private registry 5006
 3. mirror registry 5009
 4. jenkins 9002
 5. pyspider 5000
