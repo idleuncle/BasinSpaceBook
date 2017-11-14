@@ -23,7 +23,8 @@
 * [华为FusionInsight平台分析](hua-wei-fusioninsight-ping-tai-fen-xi.md)
 
 ## 研发环境
-* [部署服务器](bu-shu-fu-wu-qi.md)
+
+* [部署服务](bu-shu-fu-wu-qi.md)
 * [研发环境系统信息](xi-tong-huan-jing.md)
 
 ## BasinSpace手册
