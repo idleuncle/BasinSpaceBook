@@ -15,9 +15,8 @@
 
     * gitbook: http://115.28.208.122:16689/
     * trello: https://trello.com/b/lY0uCQ2q/basinspace
-    * 部署服务: 139.196.106.149:16399/jenkins
+    * 部署服务: http://139.196.106.149:16399/jenkins
     
-
 
 
 
