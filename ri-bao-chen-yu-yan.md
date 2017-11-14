@@ -1,12 +1,20 @@
+# 2017-11-14
+
+1. Repository 2, Pipeline 3 
+2. Repository 2 
+3. Pipeline 1, Repository 1
+4. Repository 1
+
+
 # 2017-11-13
 
 1. Packaging 10 
 2. Packaging 6, 7, 10
 3. Packaging 6, 7
-
 4. Packaging 4, 12
 
-5. # 2017-11-10
+# 2017-11-10
+
 6. Development 10 ,   Packaging 2
 
 7. Packaging 4 , 7, 8
