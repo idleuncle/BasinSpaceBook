@@ -47,4 +47,5 @@
 * [调度服务](diao-du-fu-wu.md)
 * [basin-spider api](basin-spider-api.md)
 * [平台实现路径](ping-tai-shi-xian-lu-jing.md)
+* [订阅与推送的简单架构](ding-yue-yu-tui-song-de-jian-dan-jia-gou.md)
 
