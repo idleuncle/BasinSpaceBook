@@ -3,7 +3,7 @@
 1. Repository 3, 4
 2. Repository 5 
 3. Pipeline 1
-4. Pipeline 1 ， Deploy 1
+4. Pipeline 1 ， Deploy 文档
 
 
 # 2017-11-14
