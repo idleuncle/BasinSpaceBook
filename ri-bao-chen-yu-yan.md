@@ -1,9 +1,17 @@
+# 2017-11-16
+
+Deploy 文档
+Deploy 测试
+Repository 集成测试发现有错，修复
+Pipeline 3 集成apscheduler，无法在job中创建job，未解决
+
 # 2017-11-15
 
-1. Repository 3, 4
-2. Repository 5 
-3. Pipeline 1
-4. Pipeline 1 ， Deploy 文档
+Repository 3 单元测试脚本
+Repository 4  db接入sqlite，通过webapi与db操作相关接口测试
+Repository 5 安装成python lib 后出现的问题修复
+Pipeline 1 转换成 scheduler， 定时检查订单，执行任务
+Deploy 文档
 
 
 # 2017-11-14
