@@ -1,5 +1,11 @@
 # 2017-11-16
 
+发布网站 1. 选用hugo 构建静态站点， 学习用法。
+发布网站 2. 与每日构建集成
+Pipeline 3. 集成apscheduler
+
+# 2017-11-16
+
 Deploy 文档
 Deploy 测试
 Repository 集成测试发现有错，修复
