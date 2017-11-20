@@ -21,6 +21,7 @@
 ## 研发环境
 
 * [部署服务](bu-shu-fu-wu-qi.md)
+* [技术架构图](ji-zhu-jia-gou-tu.md)
 * [部署架构图](bu-shu-jia-gou-tu.md)
 * [研发环境系统信息](xi-tong-huan-jing.md)
 
