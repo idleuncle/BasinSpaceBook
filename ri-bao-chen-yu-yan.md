@@ -1,3 +1,10 @@
+# 2017-11-18
+
+scheduler jobs管理，测试
+scheduler 与publisher 的接口
+整理文档，部署图等
+
+
 # 2017-11-17
 
 发布网站 1. 选用hugo 构建静态站点， 学习用法。
