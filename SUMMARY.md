@@ -12,7 +12,6 @@
 * [2. Packaging](manual/2. Packaging.md)
 * [3. Deployment](manual/3. Deployment.md)
 
-
 ## 从零开始构建BasinSpace
 
 * [前言](cong-ling-kai-shi-gou-jian-basinspace.md)
@@ -22,6 +21,7 @@
 ## 研发环境
 
 * [部署服务](bu-shu-fu-wu-qi.md)
+* [部署架构图](bu-shu-jia-gou-tu.md)
 * [研发环境系统信息](xi-tong-huan-jing.md)
 
 ## BasinSpace平台服务组件文档
@@ -34,7 +34,6 @@
 * [调度服务](diao-du-fu-wu.md)
 * [平台实现路径](ping-tai-shi-xian-lu-jing.md)
 * [订阅与推送的简单架构](ding-yue-yu-tui-song-de-jian-dan-jia-gou.md)
-
 
 ## Basin平台研发日志
 
