@@ -22,7 +22,6 @@
 * [前言](cong-ling-kai-shi-gou-jian-basinspace.md)
 * [招标公告订阅演示应用](zhao-biao-gong-gao-ding-dan-xi-tong.md)
 * [版本发布与部署\[标准\]](ban-ben-fa-bu-yu-bu-shu.md)
-* [源码的发布与安装测试](fa-bu-ce-shi.md)
 
 
 ## BasinSpace服务组件文档
