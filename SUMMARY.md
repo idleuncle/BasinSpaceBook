@@ -12,10 +12,6 @@
 * [2. Packaging](manual/2. Packaging.md)
 * [3. Deployment](manual/3. Deployment.md)
 
-## 研发环境
-
-* [部署服务](bu-shu-fu-wu-qi.md)
-* [研发环境系统信息](xi-tong-huan-jing.md)
 
 ## 从零开始构建BasinSpace
 
@@ -23,8 +19,12 @@
 * [招标公告订阅演示应用](zhao-biao-gong-gao-ding-dan-xi-tong.md)
 * [版本发布与部署\[标准\]](ban-ben-fa-bu-yu-bu-shu.md)
 
+## 研发环境
 
-## BasinSpace服务组件文档
+* [部署服务](bu-shu-fu-wu-qi.md)
+* [研发环境系统信息](xi-tong-huan-jing.md)
+
+## BasinSpace平台服务组件文档
 
 * [存储后端](cun-chu-hou-duan.md)
 * [招标公告抽取服务](zhao-biao-gong-gao-chou-qu-fu-wu.md)
