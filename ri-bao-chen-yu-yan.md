@@ -1,4 +1,12 @@
-# 2017-11-18
+# 2017-11-21
+
+scheduler jobs管理 restful 接口
+job 规范定义（需要预置 代码，写在项目中，订单服务需要知道这些job名，这个问题）
+
+需要由下单人启动job ， 耦合
+
+
+# 2017-11-20
 
 scheduler jobs管理，测试
 scheduler 与publisher 的接口
