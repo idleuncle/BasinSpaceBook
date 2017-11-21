@@ -1,15 +1,15 @@
 # 2017-11-21
 
-scheduler jobs管理 restful 接口
-job 规范定义（需要预置 代码，写在项目中，订单服务需要知道这些job名，这个问题）
-理清 publisher (订单增删改查) -> scheduler (定时任务) -> pipeline(还有worker while True 读数据问题)
+1. scheduler jobs管理 restful 接口
+2. job 规范定义（需要预置 代码，写在项目中，订单服务需要知道这些job名，这个问题）
+3. 理清 publisher (订单增删改查) -> scheduler (定时任务) -> pipeline(还有worker while True 读数据问题)
 
 
 # 2017-11-20
 
-scheduler jobs管理，测试
-scheduler 与publisher 的接口
-整理文档，部署图等
+1. scheduler jobs管理，测试
+2. scheduler 与publisher 的接口
+3. 整理文档，部署图等
 
 
 # 2017-11-17
