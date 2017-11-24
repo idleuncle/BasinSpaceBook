@@ -1,3 +1,15 @@
+
+
+
+
+
+# 2017-11-22
+
+1. scheduler jobs 启停管理
+2. scheduler 定时设计，达到截止时间自动停止job
+3. 架构图，文档编辑
+
+
 # 2017-11-21
 
 1. scheduler jobs管理 restful 接口
