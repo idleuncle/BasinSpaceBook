@@ -1,7 +1,15 @@
 
+# 2017-11-24
 
+1. docker 镜像依赖重整，重新构建基础镜像，依赖图
+2. 考虑将 worker 从scheduler 中拆出
+3. 文档整理
 
+# 2017-11-23
 
+1. scheduler 定时无法执行的bug
+2. pipeline 任务重构转移到scheduler 的worker中
+3. docker machine learning 镜像构建，基础镜像构建
 
 # 2017-11-22
 
