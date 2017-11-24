@@ -21,13 +21,13 @@
 ## 研发环境
 
 * [部署服务](bu-shu-fu-wu-qi.md)
-* [技术架构图](ji-zhu-jia-gou-tu.md)
-* [部署架构图](bu-shu-jia-gou-tu.md)
 * [研发环境系统信息](xi-tong-huan-jing.md)
 
 ## BasinSpace平台服务组件文档
 
-* [存储后端](cun-chu-hou-duan.md)
+* [架构图](bu-shu-jia-gou-tu.md)
+* [镜像依赖图](ji-zhu-jia-gou-tu.md)
+* [repository](cun-chu-hou-duan.md)
 * [招标公告抽取服务](zhao-biao-gong-gao-chou-qu-fu-wu.md)
 * [pipeline服务](etlfu-wu.md)
 * [爬虫平台](pa-chong-ping-tai.md)
