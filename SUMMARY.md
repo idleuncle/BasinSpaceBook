@@ -5,14 +5,14 @@
 * [概述](README.md)
 * [日报 - 陈予言](ri-bao-chen-yu-yan.md)
 * [日报 - 陈牵](ri-bao-qchen.md)
-* [私有仓库使用说明](si-you-cang-ku-shi-yong-shuo-ming.md)
-* [持续交付说明](chi-xu-jiao-fu-shuo-ming.md)
 
 ## BasinSpace手册
 
 * [1. Development](manual/1. Development.md)
 * [2. Packaging](manual/2. Packaging.md)
 * [3. Deployment](manual/3. Deployment.md)
+* [4. 私有仓库使用说明](si-you-cang-ku-shi-yong-shuo-ming.md)
+* [5. 持续交付说明](chi-xu-jiao-fu-shuo-ming.md)
 
 ## 从零开始构建BasinSpace
 
@@ -56,3 +56,4 @@
 * [gitbook替代方案](gitbookti-dai-fang-an.md)
 * [源码迁移步骤](yuan-ma-qian-yi-bu-zou.md)
 * [招标公告信息提取闭环的基本要求](zhao-biao-gong-gao-xin-xi-ti-qu-bi-huan-de-ji-ben-yao-qiu.md)
+
