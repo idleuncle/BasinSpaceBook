@@ -5,6 +5,8 @@
 * [概述](README.md)
 * [日报 - 陈予言](ri-bao-chen-yu-yan.md)
 * [日报 - 陈牵](ri-bao-qchen.md)
+* [私有仓库使用说明](si-you-cang-ku-shi-yong-shuo-ming.md)
+* [持续交付说明](chi-xu-jiao-fu-shuo-ming.md)
 
 ## BasinSpace手册
 
@@ -21,13 +23,13 @@
 ## 研发环境
 
 * [部署服务](bu-shu-fu-wu-qi.md)
+* [技术架构图](ji-zhu-jia-gou-tu.md)
+* [部署架构图](bu-shu-jia-gou-tu.md)
 * [研发环境系统信息](xi-tong-huan-jing.md)
 
 ## BasinSpace平台服务组件文档
 
-* [架构图](bu-shu-jia-gou-tu.md)
-* [镜像依赖图](ji-zhu-jia-gou-tu.md)
-* [repository](cun-chu-hou-duan.md)
+* [存储后端](cun-chu-hou-duan.md)
 * [招标公告抽取服务](zhao-biao-gong-gao-chou-qu-fu-wu.md)
 * [pipeline服务](etlfu-wu.md)
 * [爬虫平台](pa-chong-ping-tai.md)
@@ -54,4 +56,3 @@
 * [gitbook替代方案](gitbookti-dai-fang-an.md)
 * [源码迁移步骤](yuan-ma-qian-yi-bu-zou.md)
 * [招标公告信息提取闭环的基本要求](zhao-biao-gong-gao-xin-xi-ti-qu-bi-huan-de-ji-ben-yao-qiu.md)
-
