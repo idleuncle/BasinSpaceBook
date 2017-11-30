@@ -55,7 +55,7 @@ bidspy/publisher
 # 持续构建说明
 
 1. basin需要维护Dockerfile的镜像,需提交到gitlab中,每次对Dockerfile修改,自动触发持续构建程,构建流程:
-    见:  [持续交付说明](/持续交付说明)
+    见:  [持续交付说明](/chi-xu-jiao-fu-shuo-ming.md)
 2. 共有库(redis,mongod)不需要持续构建
 3. 业务系统,需要@陈牵,@陈予言,增加构建脚本,完成持续构建.
 
