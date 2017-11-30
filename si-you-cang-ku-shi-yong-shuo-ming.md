@@ -7,14 +7,13 @@
     + basin基础库,以basin前缀命名,例如:
 basin/py27-ws
 
-
-## 私有仓库依赖图
-![](/assets/docker_deps.png)
     
 + 业务系统
     + 由业务系统各自构建的库,以业务系统前缀命名, 例如:
 bidspy/publisher
 
+## 私有仓库依赖图
+![](/assets/docker_deps.png)
 
 
 ## 使用过程
