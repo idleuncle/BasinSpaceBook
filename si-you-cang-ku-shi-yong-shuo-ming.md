@@ -18,18 +18,17 @@ bidspy/publisher
 
 
 
-
 ## 使用过程:
 1. 配置客户端
-
-    PRIVATE_REGISTRY=10.142.55.199
+    
     ```
+    export PRIVATE_REGISTRY=10.142.55.199
+
     echo '{"insecure-registries":["'${PRIVATE_REGISTRY}':5006"]}' > /etc/docker/daemon.json
     ```
 
 2. 私有仓库浏览
 访问地址: http://10.142.55.199:18080/
-能够浏览当前私有仓库版本信息.
 
 3. 获取仓库版本
 
@@ -48,8 +47,7 @@ bidspy/publisher
 2. 业务系统镜像由开发人员自行维护.
 备注:暂无用户权限区分,增加insecure-registries配置均能修改.
 
-
-新增basin镜像流程:
+##### 新增/修改basin镜像流程:
 1. 通知basin组人员@陈牵,@陈予言,增加镜像或修改镜像,
 2. basin组人员评估是否已有镜像或确需要增加镜像
 3. basin组人员增加/修改新镜像.
@@ -57,11 +55,9 @@ bidspy/publisher
 
 # 持续构建说明
 
-1. 镜像确保持续构建,需将镜像加入持续构建过程,构建流程:
+1. basin需要维护Dockerfile的镜像,需提交到gitlab中,每次对Dockerfile修改,自动触发持续构建程,构建流程:
 见:  [持续交付说明](/持续交付说明)
+2. 共有库(redis,mongod)不需要持续构建
+3. 业务系统,需要@陈牵,@陈予言,增加构建脚本,完成持续构建.
 
 
-
-
-
-镜像依赖
