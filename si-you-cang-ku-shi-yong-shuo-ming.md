@@ -47,6 +47,7 @@ bidspy/publisher
 ## 镜像维护说明
 1. basin镜像由basin 组用户进行维护.
 2. 业务系统镜像由开发人员自行维护.
+
 备注:暂无用户权限区分,增加insecure-registries配置均能修改.
 
 ##### 新增/修改basin镜像流程:
