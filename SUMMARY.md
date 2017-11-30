@@ -5,6 +5,7 @@
 * [概述](README.md)
 * [日报 - 陈予言](ri-bao-chen-yu-yan.md)
 * [日报 - 陈牵](ri-bao-qchen.md)
+* [私有仓库使用说明](si-you-cang-ku-shi-yong-shuo-ming.md)
 
 ## BasinSpace手册
 
