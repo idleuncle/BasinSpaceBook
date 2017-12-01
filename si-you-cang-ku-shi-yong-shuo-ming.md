@@ -32,13 +32,13 @@ bidspy/publisher
 **3. 获取仓库版本**
 
     ~~~
-    docker pull 10.142.55.199:5006/basin/py27-ws:1.0
+    docker pull 10.142.55.199:5006/basin/py27-ws:x.x
     ~~~
 
 **4. 镜像上传**
 
     ~~~
-    docker tag py27-ws:1.0 10.142.55.199:5006/basin/py27-ws:2.0
+    docker tag py27-ws:1.0 10.142.55.199:5006/basin/py27-ws:x.x
     ~~~
     
 ## 镜像维护
