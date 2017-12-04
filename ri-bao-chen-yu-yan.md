@@ -1,11 +1,27 @@
+# 2017-11-29
 
-# 2017-11-24
+1. 订单demo 与 scheduler 的接口交互问题解决
+2. docker compose 集成测试
+
+# 2017-11-28
+
+1. 将订单demo网站UI界面和接口
+2. docker compose 集成测试
+3. 发现订单demo与爬虫通讯问题，解决
+
+# 2017-11-27
+
+1. 将订单网站用Django重写
+2. UI界面和接口重写
+
+
+# 2017-11-26
 
 1. docker 镜像依赖重整，重新构建基础镜像，依赖图
 2. 考虑将 worker 从scheduler 中拆出
 3. 文档整理
 
-# 2017-11-23
+# 2017-11-25
 
 1. scheduler 定时无法执行的bug
 2. pipeline 任务重构转移到scheduler 的worker中
