@@ -47,8 +47,9 @@ bidspy/publisher
     使用第三方工具进行删除,操作需要登入到10.142.55.199服务器进行操作.
     ~~~
     export REGISTRY_DATA_DIR=/mnt/docker/docker-registry-basinspace/config/private_registry/data/docker/registry/v2
-    delete_docker_registry_image --image basin/py27-ws:x.x
+    sudo -E delete_docker_registry_image --image basin/py27-ws:x.x
     ~~~
+    
     
 !! 删除由basin组成员删除.
     
