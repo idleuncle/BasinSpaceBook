@@ -19,7 +19,21 @@
     * 部署服务: http://139.196.106.149:16399/jenkins
     
 
+## 服务器列表:
 
+1. build machine(编译服务器)
+    ip: 192.168.2.100
+    user: root
+    password: vagrant
+
+2. test machine(测试服务器)
+    ip: 192.168.2.101
+    user: root
+    password: vagrant
+    
+~~~3. s01 machine~~~
+    ~~~ip: 192.168.2.101~~~
+~~~    user~~~
 
 ## 端口列表
 
