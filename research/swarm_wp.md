@@ -48,9 +48,7 @@ digraph G {
     user -> subnet_proxy [label="访问应用"]
 
 }
-```
-
-![](/assets/S0[Q$BM1ZSC_BQ4[6[]2]K5.png)
+``
 
 网络架构图为(我想画2个cluster相连，而不是其中的node相连，没办法画出来)
 ![](/assets/dsadadqw1241.png)
