@@ -50,6 +50,6 @@ docker 容器默认模式不保存数据,销毁及删除数据.
 
 
 # 总结
-还在测试flocker和portworx使用方式.
+还在测试flocker和portworx使用方式.暂无结论.
 
 
