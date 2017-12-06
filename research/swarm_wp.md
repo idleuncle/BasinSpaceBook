@@ -32,7 +32,9 @@ Swarm架构图：
 
 ## 验证模型
 
-以bidspy为例，网络创建流程图为:
+以bidspy为例，
+
+#### 网络创建流程图为:
 
 ```
 digraph G {
@@ -54,8 +56,9 @@ digraph G {
 
 ![](/assets/xxxxx.png)
 
-网络架构图为:
-(我想画2个cluster相连，而不是其中的node相连，没办法画出来)
+#### 网络架构图为:
+
+注:我想画2个cluster相连，而不是其中的node相连，没办法画出来
 
 [dot文件](/research/swarm_bidpsy.dot)
 
@@ -143,8 +146,7 @@ digraph G {
 
 
 
-## 总结
-
+## 现有问题
 
 1. docker官方文档上写着应该使用 /24 子网 ，限制256个ip 。如果需要更大的服务数量，就要引入服务发现，比如consul，etcd.
-1. 
+1. 使用docker machine创建的swarm 集群，设置了overlay网络 相互直接无法访问。
