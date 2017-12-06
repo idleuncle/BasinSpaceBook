@@ -18,6 +18,7 @@
 
 * [1. 管理前端框架](research/frontend_wp.md)
 * [2. 容器网络设计(Swarm)](research/swarm_wp.md)
+* [3. 容器存储验证(flock/portworx)](research/storage_wp.md)
 
 
 ## 从零开始构建BasinSpace

@@ -1,0 +1,45 @@
+digraph G {
+   subgraph level0 {
+        label = "top";
+        "extractor"
+        "pipeline"
+        "repository"
+        "publisher"
+        "basin-spider"
+        "udb-spider"
+    }
+    subgraph level1 {
+        label = "base images(web, ml)";
+        "py27-ml"
+        "py27-spider"
+        "py27-ws"
+    }
+
+    subgraph level2 {
+        label = "base images(common)";
+        "alipine-python:2.7"
+    }
+
+    subgraph level3 {
+        label = "bottom";
+        "alipine:3.6"
+    }
+
+    level0 -> level1
+    level1 -> level2
+    level2 -> level3
+
+    "extractor" -> "py27-ml"
+    "pipeline" -> "py27-ws"
+    "repository" -> "py27-ws"
+    "publisher" -> "py27-ws"
+    "basin-spider" -> "py27-spider"
+    "udb-spider" -> "py27-spider"
+
+    "py27-ml" -> "alipine-python:2.7"
+    "py27-spider" -> "alipine-python:2.7"
+    "py27-ws" -> "alipine-python:2.7"
+
+    "alipine-python:2.7" -> "alipine:3.6"
+
+}
