@@ -12,6 +12,10 @@ basin/py27-ws
     + 由业务系统各自构建的库,以业务系统前缀命名, 例如:
 bidspy/publisher
 
++ test
+    + test 测试库, 用于测试使用,例如:
+    test/portworx
+
 ## 私有仓库依赖图
 ![](/assets/docker_deps.png)
 
