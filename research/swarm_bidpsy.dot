@@ -1,6 +1,7 @@
 digraph G {
 
-    "user"
+    "administrator"
+    "customer"
 
     subgraph cluster_swarm {
         label = "bansin swarm cluster";
@@ -11,10 +12,17 @@ digraph G {
 
     subgraph cluster_controller {
         label = "bansin admin";
-        "frontend(antd)" -> "control_center"
+        "admin_frontend" -> "control_center"
     }
 
-   subgraph cluster_proxy {
+   subgraph cluster_proxy1 {
+        label = "proxy subnet /24";
+        "haproxy"
+        "nginx"
+        graph[style=dotted];
+    }
+
+   subgraph cluster_proxy2 {
         label = "proxy subnet /24";
         "haproxy"
         "nginx"
@@ -53,12 +61,14 @@ digraph G {
 
 
     "cluster_controller" -> "cluster_swarm"  [lhead=cluster_swarm]
-    "cluster_swarm" -> "cluster_proxy"
+    "cluster_swarm" -> "cluster_proxy1"
     "cluster_swarm" -> "cluster_project"
     "cluster_swarm" -> "cluster_storage"
 
-    "user" -> "cluster_proxy"
-    "cluster_project" -> "cluster_proxy"
+    "administrator" -> "cluster_proxy2"
+    "cluster_proxy2" -> "admin_frontend"
+    "customer" -> "cluster_proxy1"
+    "cluster_project" -> "cluster_proxy1"
     "cluster_project" -> "cluster_storage"
     "cluster_storage" -> "cluster_project"
 
