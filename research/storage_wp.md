@@ -39,7 +39,7 @@ docker 容器默认模式不保存数据,销毁及删除数据.
 2. 数据的迁移.对性能影响,例如:数据库性能.
 
 针对以上模型做flocker和portworx进行验证.
-
+![](/assets/storage.png)
 
 
 
