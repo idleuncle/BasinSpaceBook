@@ -1,3 +1,22 @@
+# 2017-12-06
+
+1. docker swarm 运行实验，但是没办法运行demo
+2. 设计文档与架构图
+
+# 2017-12-05
+
+1. docker swarm 运行实验，但是没办法运行demo
+2. 设计文档与架构图
+
+
+# 2017-12-04
+
+1. docker compose 集成测试，持续集成一些问题解决
+2. 学习了下前端框架ant 和 dva ，将demo 跑起来尝试 https://pro.ant.design/docs/getting-started-cn
+
+
+
+
 # 2017-11-29
 
 1. 订单demo 与 scheduler 的接口交互问题解决
