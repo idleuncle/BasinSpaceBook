@@ -14,6 +14,12 @@
 * [4. 私有仓库使用说明](si-you-cang-ku-shi-yong-shuo-ming.md)
 * [5. 持续交付说明](chi-xu-jiao-fu-shuo-ming.md)
 
+## 研发
+
+* [1. 管理前端框架](research/frontend_wp.md)
+* [2. 容器网络设计(Swarm)](research/swarm_wp.md)
+
+
 ## 从零开始构建BasinSpace
 
 * [前言](cong-ling-kai-shi-gou-jian-basinspace.md)
