@@ -28,8 +28,7 @@ Swarm的特性：
 
 Swarm架构图：
 
-http://img.blog.csdn.net/20170312172756441?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTXJUaXRhbg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast
-
+![](http://img.blog.csdn.net/20170312172756441?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvTXJUaXRhbg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 ## 验证模型
 
