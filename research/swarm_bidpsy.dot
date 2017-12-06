@@ -16,14 +16,14 @@ digraph G {
     }
 
    subgraph cluster_proxy1 {
-        label = "proxy subnet /24";
+        label = "proxy 1 subnet";
         "haproxy"
         "nginx"
         graph[style=dotted];
     }
 
    subgraph cluster_proxy2 {
-        label = "proxy subnet /24";
+        label = "proxy 2 subnet";
         "haproxy"
         "nginx"
         graph[style=dotted];
@@ -62,12 +62,14 @@ digraph G {
 
     "cluster_controller" -> "cluster_swarm"  [lhead=cluster_swarm]
     "cluster_swarm" -> "cluster_proxy1"
+    "cluster_swarm" -> "cluster_proxy2"
     "cluster_swarm" -> "cluster_project"
     "cluster_swarm" -> "cluster_storage"
 
     "administrator" -> "cluster_proxy2"
     "cluster_proxy2" -> "admin_frontend"
     "customer" -> "cluster_proxy1"
+    "cluster_proxy1" -> "demo"
     "cluster_project" -> "cluster_proxy1"
     "cluster_project" -> "cluster_storage"
     "cluster_storage" -> "cluster_project"

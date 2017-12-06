@@ -58,6 +58,8 @@ digraph G {
 (我想画2个cluster相连，而不是其中的node相连，没办法画出来)
 
 
+[](/research/swarm_bidpsy.dot)
+
 ```
 digraph G {
 
