@@ -150,3 +150,4 @@ digraph G {
 
 1. docker官方文档上写着应该使用 /24 子网 ，限制256个ip 。如果需要更大的服务数量，就要引入服务发现，比如consul，etcd.
 1. 使用docker machine创建的swarm 集群，设置了overlay网络 相互直接无法访问。
+
