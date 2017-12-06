@@ -43,21 +43,103 @@ digraph G {
     swarm -> subnet_storage [label="创建存储网络"];
     swarm -> bidspy [label="创建服务"];
     bidspy -> subnet_bidspy [label="连接网络"]
-    bidspy -> subnet_proxy [label="连接网络，对外访问入口"]
+    bidspy -> subnet_proxy [label="连接网络"]
     bidspy -> subnet_storage [label="连接网络"]
-    user -> subnet_proxy [label="访问应用"]
+    user -> subnet_proxy [label="访问代理"]
+    subnet_proxy -> bidspy [label="访问实际服务"]
 
 }
-``
-
-![](/assets/S0[Q$BM1ZSC_BQ4[6[]2]K5.png)
+```
 
 
-网络架构图为(我想画2个cluster相连，而不是其中的node相连，没办法画出来)
+![](/assets/xxxxx.png)
+
+网络架构图为:
+(我想画2个cluster相连，而不是其中的node相连，没办法画出来)
+
+
+```
+digraph G {
+
+    "administrator"
+    "customer"
+
+    subgraph cluster_swarm {
+        label = "bansin swarm cluster";
+        "node1"
+        "node2"
+        "node3"
+    }
+
+    subgraph cluster_controller {
+        label = "bansin admin";
+        "admin_frontend" -> "control_center"
+    }
+
+   subgraph cluster_proxy1 {
+        label = "proxy 1 subnet";
+        "haproxy"
+        "nginx"
+        graph[style=dotted];
+    }
+
+   subgraph cluster_proxy2 {
+        label = "proxy 2 subnet";
+        "haproxy"
+        "nginx"
+        graph[style=dotted];
+    }
+
+   subgraph cluster_project {
+
+        label = "bidspy subnet ";
+        "demo"
+        "extractor"
+        "scheduler"
+        "repository"
+        "basin-spider"
+        "udb-spider"
+
+
+        "demo" -> "basin-spider"
+        "demo" -> "scheduler"
+        "extractor" -> "scheduler"
+        "scheduler" -> "extractor"
+        "scheduler" -> "repository"
+        "basin-spider" -> "repository"
+        "repository" -> "storage"
+        "basin-spider" -> "udb-spider"
+
+    }
+
+    subgraph cluster_storage {
+        label = "storage subnet";
+        "mongodb"
+        "redis"
+        "postgres"
+
+    }
+
+
+    "cluster_controller" -> "cluster_swarm"  [lhead=cluster_swarm]
+    "cluster_swarm" -> "cluster_proxy1"
+    "cluster_swarm" -> "cluster_proxy2"
+    "cluster_swarm" -> "cluster_project"
+    "cluster_swarm" -> "cluster_storage"
+
+    "administrator" -> "cluster_proxy2"
+    "cluster_proxy2" -> "admin_frontend"
+    "customer" -> "cluster_proxy1"
+    "cluster_proxy1" -> "demo"
+    "cluster_project" -> "cluster_proxy1"
+    "cluster_project" -> "cluster_storage"
+    "cluster_storage" -> "cluster_project"
+
+}
+```
+
 ![](/assets/dsadadqw1241.png)
 
-
-## 总结
 
 
 ## 总结
