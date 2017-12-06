@@ -32,7 +32,7 @@ Swarm架构图：
 
 ## 验证模型
 
-以bidspy为例，流程为:
+以bidspy为例，网络创建流程图为:
 
 digraph G {
 
@@ -50,6 +50,15 @@ digraph G {
 
 ![](/assets/S0[Q$BM1ZSC_BQ4[6[]2]K5.png)
 
+网络架构图为(我想画2个cluster相连，而不是其中的node相连，没办法画出来)
+![](/assets/dsadadqw1241.png)
+
 
 ## 总结
 
+
+## 总结
+
+
+1. docker官方文档上写着应该使用 /24 子网 ，限制256个ip 。如果需要更大的服务数量，就要引入服务发现，比如consul，etcd
+1. https://github.com/laincloud/lain
