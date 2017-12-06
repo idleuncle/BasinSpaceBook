@@ -34,6 +34,7 @@ Swarm架构图：
 
 以bidspy为例，网络创建流程图为:
 
+```
 digraph G {
 
     controller -> swarm [label="网络创建/服务启动/信息获取等控制命令"];
@@ -47,6 +48,7 @@ digraph G {
     user -> subnet_proxy [label="访问应用"]
 
 }
+```
 
 ![](/assets/S0[Q$BM1ZSC_BQ4[6[]2]K5.png)
 
@@ -60,5 +62,5 @@ digraph G {
 ## 总结
 
 
-1. docker官方文档上写着应该使用 /24 子网 ，限制256个ip 。如果需要更大的服务数量，就要引入服务发现，比如consul，etcd
-1. https://github.com/laincloud/lain
+1. docker官方文档上写着应该使用 /24 子网 ，限制256个ip 。如果需要更大的服务数量，就要引入服务发现，比如consul，etcd.
+1. 
