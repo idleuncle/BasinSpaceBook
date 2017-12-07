@@ -33,56 +33,56 @@
 
 - Parameters Example:
 
-    {
-        'html': 'xxx',
-        'title': 'xxx',
-        'url': 'xxx',
-    }
+        {
+            'html': 'xxx',
+            'title': 'xxx',
+            'url': 'xxx',
+        }
 
 - Result Example:
-
-    {
-        'public_date':'发布日期',
-        'end_date':'截止日期',
-        'open_date':'开标日期',
-        'win_date':'中标日期',
-        'file_date':'文件获取日期',
-        'budget_price':'预算金额',
-        'deal_price':'成交金额',
-        'buy_price':'采购金额',
-        'open_price':'开标金额',
-        'win_price':'中标金额',
-        'enter_price':'入围金额',
-        'project':'项目',
-        'proxy':'代理机构',
-        'proxy_address':'代理机构地址',
-        'proxy_telephone':'代理机构电话',
-        'proxy_contacter':'代理机构联系人',
-        'proxy_contacter_phone':'代理机构联系人手机',
-        'proxy_contacter_email':'代理机构联系人邮箱',
-        'buyer':'采购机构',
-        'buyer_address':'采购机构地址',
-        'buyer_telephone':'采购机构电话',
-        'buyer_contacter':'采购机构联系人',
-        'buyer_contacter_phone':'采购机构联系人手机',
-        'buyer_contacter_email':'采购机构联系人邮箱',
-        'file_mail_address':'投标文件递交地址',
-        'qualification':'资质',
-        'province':'省',
-        'city':'市',
-        'area':'区',
-        'bid_type':'招标类型',
-        'title_type':'公告类型',
-        'registered_in_china':'境内注册',
-        'allow_union':'接受联合体投标',
-        'bid_number':'项目(招标)编号',
-        'service_provider':'招标服务单位',
-        'committee':'评标委员会',
-        'bid_method':'招标方式',
-        'buy_method':'采购方式',
-        'duration':'工期',
-    }
-
+    
+        {
+            'public_date':'发布日期',
+            'end_date':'截止日期',
+            'open_date':'开标日期',
+            'win_date':'中标日期',
+            'file_date':'文件获取日期',
+            'budget_price':'预算金额',
+            'deal_price':'成交金额',
+            'buy_price':'采购金额',
+            'open_price':'开标金额',
+            'win_price':'中标金额',
+            'enter_price':'入围金额',
+            'project':'项目',
+            'proxy':'代理机构',
+            'proxy_address':'代理机构地址',
+            'proxy_telephone':'代理机构电话',
+            'proxy_contacter':'代理机构联系人',
+            'proxy_contacter_phone':'代理机构联系人手机',
+            'proxy_contacter_email':'代理机构联系人邮箱',
+            'buyer':'采购机构',
+            'buyer_address':'采购机构地址',
+            'buyer_telephone':'采购机构电话',
+            'buyer_contacter':'采购机构联系人',
+            'buyer_contacter_phone':'采购机构联系人手机',
+            'buyer_contacter_email':'采购机构联系人邮箱',
+            'file_mail_address':'投标文件递交地址',
+            'qualification':'资质',
+            'province':'省',
+            'city':'市',
+            'area':'区',
+            'bid_type':'招标类型',
+            'title_type':'公告类型',
+            'registered_in_china':'境内注册',
+            'allow_union':'接受联合体投标',
+            'bid_number':'项目(招标)编号',
+            'service_provider':'招标服务单位',
+            'committee':'评标委员会',
+            'bid_method':'招标方式',
+            'buy_method':'采购方式',
+            'duration':'工期',
+        }
+    
 
 ### 招标公告信息批量提取接口(支持异步调用时需要id)
 
@@ -102,69 +102,69 @@
     | url | false | string | 结束时间 |
 
 - Parameters Example:
-
-    [
-        {
-            'id': 1,
-            'html': 'xxx',
-            'title': 'xxx',
-            'url': 'xxx',
-        },
-        ...
-    ]
-
+    
+        [
+            {
+                'id': 1,
+                'html': 'xxx',
+                'title': 'xxx',
+                'url': 'xxx',
+            },
+            ...
+        ]
+    
 
 - Result Example:
-
-    [
-        {
-            'id': 1,
-            'info': {
-                'public_date':'发布日期',
-                'end_date':'截止日期',
-                'open_date':'开标日期',
-                'win_date':'中标日期',
-                'file_date':'文件获取日期',
-                'budget_price':'预算金额',
-                'deal_price':'成交金额',
-                'buy_price':'采购金额',
-                'open_price':'开标金额',
-                'win_price':'中标金额',
-                'enter_price':'入围金额',
-                'project':'项目',
-                'proxy':'代理机构',
-                'proxy_address':'代理机构地址',
-                'proxy_telephone':'代理机构电话',
-                'proxy_contacter':'代理机构联系人',
-                'proxy_contacter_phone':'代理机构联系人手机',
-                'proxy_contacter_email':'代理机构联系人邮箱',
-                'buyer':'采购机构',
-                'buyer_address':'采购机构地址',
-                'buyer_telephone':'采购机构电话',
-                'buyer_contacter':'采购机构联系人',
-                'buyer_contacter_phone':'采购机构联系人手机',
-                'buyer_contacter_email':'采购机构联系人邮箱',
-                'file_mail_address':'投标文件递交地址',
-                'qualification':'资质',
-                'province':'省',
-                'city':'市',
-                'area':'区',
-                'bid_type':'招标类型',
-                'title_type':'公告类型',
-                'registered_in_china':'境内注册',
-                'allow_union':'接受联合体投标',
-                'bid_number':'项目(招标)编号',
-                'service_provider':'招标服务单位',
-                'committee':'评标委员会',
-                'bid_method':'招标方式',
-                'buy_method':'采购方式',
-                'duration':'工期',
-            }
-        },
-        ...
-    ]
-
-
+    
+        [
+            {
+                'id': 1,
+                'info': {
+                    'public_date':'发布日期',
+                    'end_date':'截止日期',
+                    'open_date':'开标日期',
+                    'win_date':'中标日期',
+                    'file_date':'文件获取日期',
+                    'budget_price':'预算金额',
+                    'deal_price':'成交金额',
+                    'buy_price':'采购金额',
+                    'open_price':'开标金额',
+                    'win_price':'中标金额',
+                    'enter_price':'入围金额',
+                    'project':'项目',
+                    'proxy':'代理机构',
+                    'proxy_address':'代理机构地址',
+                    'proxy_telephone':'代理机构电话',
+                    'proxy_contacter':'代理机构联系人',
+                    'proxy_contacter_phone':'代理机构联系人手机',
+                    'proxy_contacter_email':'代理机构联系人邮箱',
+                    'buyer':'采购机构',
+                    'buyer_address':'采购机构地址',
+                    'buyer_telephone':'采购机构电话',
+                    'buyer_contacter':'采购机构联系人',
+                    'buyer_contacter_phone':'采购机构联系人手机',
+                    'buyer_contacter_email':'采购机构联系人邮箱',
+                    'file_mail_address':'投标文件递交地址',
+                    'qualification':'资质',
+                    'province':'省',
+                    'city':'市',
+                    'area':'区',
+                    'bid_type':'招标类型',
+                    'title_type':'公告类型',
+                    'registered_in_china':'境内注册',
+                    'allow_union':'接受联合体投标',
+                    'bid_number':'项目(招标)编号',
+                    'service_provider':'招标服务单位',
+                    'committee':'评标委员会',
+                    'bid_method':'招标方式',
+                    'buy_method':'采购方式',
+                    'duration':'工期',
+                }
+            },
+            ...
+        ]
+    
+    
 ### 招标公告关注预测，批量分析接口
 
 - URL:/bid/predict/concern
@@ -179,33 +179,34 @@
     | content | true | string | 正文 |
 
 - Parameters Example:
-
-        [
-            {
-                'id': id,
-                'title': title,
-                'content': content,
-            },
-            ...
-        ]
-
+    
+            [
+                {
+                    'id': id,
+                    'title': title,
+                    'content': content,
+                },
+                ...
+            ]
+    
 - Return Value:
-        [
-            {
-                'id': id,
-                'result': 0,
-            },
-            {
-                'id': id,
-                'result': 1,
-            },
-            {
-                'id': id,
-                'result': 99,
-            },
-            ...
-        ]
-
+    
+            [
+                {
+                    'id': id,
+                    'result': 0,
+                },
+                {
+                    'id': id,
+                    'result': 1,
+                },
+                {
+                    'id': id,
+                    'result': 99,
+                },
+                ...
+            ]
+    
 
 ### 招标公告关注预测，单条分析接口
 
