@@ -24,13 +24,13 @@
 - HTTP Method:POST
 - Parameters:
 
-        |name | required | type and range | info |
-        |---|---|---|---|
-        | html | true | string | 招标公告正文部分的html |
-        | text | optional | string | 注意，必须传 html 或者text 之一 |
-        | title | false | string | 招标公告 |
-        | url | false | string | 结束时间 |
-
+    |name | required | type and range | info |
+    |---|---|---|---|
+    | html | true | string | 招标公告正文部分的html |
+    | text | optional | string | 注意，必须传 html 或者text 之一 |
+    | title | false | string | 招标公告 |
+    | url | false | string | 结束时间 |
+    
 - Parameters Example:
 
         {
