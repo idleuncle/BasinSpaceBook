@@ -1,7 +1,7 @@
 # Intro
 ----
 
-项目路径：/data/BasinSpace/src/bidspy
+项目路径：/bidspy/src/extractor/
 
 - basin-textminer: 文本处理，语料库表达。内含多个小project，如招标公告提取
 - annotator-server: 招标公告提取分析接口， annotator接口， crf训练接口等
