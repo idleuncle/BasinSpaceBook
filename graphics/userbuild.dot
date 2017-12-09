@@ -1,0 +1,23 @@
+digraph graphname{
+
+    User [label="User"]      // node T
+    Ci [label="CI Server"]  // node P
+    Repo [label="Repo"]
+    Build_server [label="Build Server"]
+    Test_server [label="Test Server"]
+
+    
+    User -> Ci [label="(1)build command"]
+    Ci -> Repo [label="(2)git pull"]
+    Ci-> Build_server [label="(3)build"]
+    Build_server -> Ci [label="(4)build result"]
+
+    Ci -> Test_server [label="(5)testing"]
+    Test_server-> Ci [label="(6)test result"]
+
+    Ci -> User [label="(7)通知结果"]
+
+
+}
+
+
