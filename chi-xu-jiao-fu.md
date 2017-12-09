@@ -57,26 +57,34 @@ subgraph Atlantis {
 }
 
 
-```
-digraph g {
+{% graphviz engine="dot" %}
+# http://www.graphviz.org/content/cluster
 
-overlap=false;
-rankdir = BT;
-node [shape=record];
-subgraph Atlantis {
-	Tour;
-	Order;
-	CollectionPoint;
-	TakePointTourist;
-	TransportOwner;
-	BusItem;
-	ReturnPointTourist;
+digraph G {
 
-	Tour -> Order[label="" len=4.00];
-	Order -> Tour[label="" len=4.00];
-	CollectionPoint -> TakePointTourist[label="" len=4.00];
-	TransportOwner -> BusItem[label="" len=4.00];
-	CollectionPoint -> ReturnPointTourist[label="" len=4.00];
+    subgraph cluster_0 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        a0 -> a1 -> a2 -> a3;
+        label = "process #1";
+    }
+
+    subgraph cluster_1 {
+        node [style=filled];
+        b0 -> b1 -> b2 -> b3 -> b0 -> b0;
+        label = "process #2";
+        color=blue
+    }
+    start -> a0;
+    start -> b0;
+    a1 -> b3;
+    b2 -> a3;
+    a3 -> a0;
+    a3 -> end;
+    b3 -> end;
+
+    start [shape=Mdiamond];
+    end [shape=Msquare];
 }
-}
-```
+{% endgraphviz %}
