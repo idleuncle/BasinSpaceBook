@@ -5,6 +5,7 @@
 * [概述](README.md)
 * [日报 - 陈予言](ri-bao-chen-yu-yan.md)
 * [日报 - 陈牵](ri-bao-qchen.md)
+* [持续交付](chi-xu-jiao-fu.md)
 
 ## BasinSpace手册
 
@@ -17,9 +18,8 @@
 ## 研发
 
 * [1. 管理前端框架](research/frontend_wp.md)
-* [2. 容器网络设计(Swarm)](research/swarm_wp.md)
-* [3. 容器存储验证(flock/portworx)](research/storage_wp.md)
-
+* [2. 容器网络设计\(Swarm\)](research/swarm_wp.md)
+* [3. 容器存储验证\(flock/portworx\)](research/storage_wp.md)
 
 ## 从零开始构建BasinSpace
 
