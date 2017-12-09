@@ -35,6 +35,7 @@ digraph graphname{
 }
 
 ~~~
+
 ![](/graphics/realtime.png)
 
 
@@ -66,18 +67,38 @@ digraph graphname{
 
 
 
-[](/graphics/daybuild.png)
+![](/graphics/daybuild.png)
 
 
 ## 用户触发
+由用户触发构建
+~~~
+digraph graphname{
+
+    User [label="User"]      // node T
+    Ci [label="CI Server"]  // node P
+    Repo [label="Repo"]
+    Build_server [label="Build Server"]
+    Test_server [label="Test Server"]
+
+    
+    User -> Ci [label="(1)build command"]
+    Ci -> Repo [label="(2)git pull"]
+    Ci-> Build_server [label="(3)build"]
+    Build_server -> Ci [label="(4)build result"]
+
+    Ci -> Test_server [label="(5)testing"]
+    Test_server-> Ci [label="(6)test result"]
+
+    Ci -> User [label="(7)通知结果"]
 
 
-[](/graphics/daybuild.png)
+}
 
 
+~~~
 
-
-
+![](/graphics/userbuild.png)
 
 
 
@@ -88,19 +109,13 @@ digraph graphname{
 1. 基础镜像自动构建导入仓库,不输入版本号,即为latest,编译变进入私有仓库.
 2. 自动化构建应用系统,(已验证)
 3. 编译应用系统前,检测依赖库是否属于私有仓库.并且不能使用latest.
-4. 编译成功/失败次数统计
+4. 编译成功/失败次数统计/
 
 
 ## 问题总结
 1. 当前bidspy 包含了爬虫和抽取, 爬虫和抽取应该提取出来.作为各自独立项目,存放在gitlab仓库中,bidspy 构建时候从仓库中导出该镜像,这样能够使爬虫和抽取独立部署.
+2. 编译未检测是否私有仓库中版本.
+3. 此模型能验证应用系统和基础镜像(基础依赖库)持续构建
 
-
-实时
-1. bidspy
-2. 基础镜像修改
-针对基础镜像,修改,最新的标签为latest, 或者2位数版本号,
-3. 应用系统(bidspy)编译必须依赖私有仓库中版本,
-每日构建
-1. 
 
 
