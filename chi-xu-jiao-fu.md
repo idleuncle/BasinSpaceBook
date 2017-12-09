@@ -64,20 +64,15 @@ digraph graphname{
 
 }
 
-![](/graphics/daybuild.png)
 
 
-
-
-
-
-
-
+[](/graphics/daybuild.png)
 
 
 ## 用户触发
 
-![](/graphics/userild.png)
+
+[](/graphics/daybuild.png)
 
 
 
@@ -94,6 +89,10 @@ digraph graphname{
 2. 自动化构建应用系统,(已验证)
 3. 编译应用系统前,检测依赖库是否属于私有仓库.并且不能使用latest.
 4. 编译成功/失败次数统计
+
+
+## 问题总结
+1. 当前bidspy 包含了爬虫和抽取, 爬虫和抽取应该提取出来.作为各自独立项目,存放在gitlab仓库中,bidspy 构建时候从仓库中导出该镜像,这样能够使爬虫和抽取独立部署.
 
 
 实时
