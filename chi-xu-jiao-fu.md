@@ -13,6 +13,7 @@
 4. 编译过程检测依赖的外部库,是否在私有仓库中,如不在仓库中就停止编译.
 
 ## 实时编译:
+用户提交编译自动构建
 ~~~
 digraph graphname{
 
@@ -44,6 +45,8 @@ digraph graphname{
 
 ## 每日构建:
 
+由构建系统每日构建
+~~~
 digraph graphname{
 
     User [label="User"]      // node T
@@ -65,6 +68,7 @@ digraph graphname{
 
 }
 
+~~~
 
 
 ![](/graphics/daybuild.png)
