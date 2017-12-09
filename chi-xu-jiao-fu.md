@@ -64,11 +64,30 @@ digraph graphname{
 
 }
 
+![](/graphics/daybuild.png)
+
+
+
+
+
+
 
 
 
 
 ## 用户触发
+
+![](/graphics/userild.png)
+
+
+
+
+
+
+
+
+
+
 
 # 验证模型
 1. 基础镜像自动构建导入仓库,不输入版本号,即为latest,编译变进入私有仓库.
