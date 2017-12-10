@@ -18,6 +18,7 @@ digraph G {
     subgraph level2 {
         label = "base images(common)";
         "alipine-python:2.7"
+        "dockercloud-haproxy:1.6.7"
     }
 
     subgraph level3 {
@@ -40,6 +41,8 @@ digraph G {
     "py27-spider" -> "alipine-python:2.7"
     "py27-ws" -> "alipine-python:2.7"
 
+
     "alipine-python:2.7" -> "alipine:3.6"
+    "dockercloud-haproxy:1.6.7" -> "alipine:3.6"
 
 }
