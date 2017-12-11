@@ -34,12 +34,13 @@ export REGISTRY_DATA_DIR=/mnt/docker/docker-registry-basinspace/config/private_r
 139.196.106.149 gitbook.yirong.win
 139.196.106.149 jenkins.yirong.win
 139.196.106.149 ssh199.yirong.win
+139.196.106.149 portal.yirong.win
 ~~~
 
     * gitbook: http://gitbook.yirong.win:10000/
     * trello: https://trello.com/b/lY0uCQ2q/basinspace
     * 部署服务: http://jenkins.yirong.win:10000/jenkins
-    * gitlab_ssh: 	ssh://git@ssh199.yirong.win:10022/basinspace/bidspy.git
+    * gitlab_ssh: ssh://git@ssh199.yirong.win:10022/basinspace/bidspy.git
     
     
 
@@ -47,9 +48,9 @@ export REGISTRY_DATA_DIR=/mnt/docker/docker-registry-basinspace/config/private_r
 
 | IP地址 |  操作系统 | 账户/密码 | 分配的资源 | 使用者 | 用途 | 端口映射 | 备注
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 192.168.2.100 | centos7 | root/vagrant | 2G | basin | 编译服务器  | | 由vagrant构建,映射宿主机为BASIN_HOST|
-| 192.168.2.101 | centos7 | root/vagrant | 2G | basin | 测试服务器 | | 由vagrant构建,映射宿主机为BASIN_HOST|
-| 192.168.2.110 | centos7 | root/vagrant | 2G | basin | bidspy服务器 | 7000->17000 <br>8880->18880 <br>5000->15000 <br>5001->15001 <br>11081->11082| 由vagrant构建,映射宿主机为BASIN_HOST|
+| 192.168.2.100 | centos7 | root/vagrant | 2G | basin | 编译服务器  | | 映射BASIN_HOST|
+| 192.168.2.101 | centos7 | root/vagrant | 2G | basin | 测试服务器 | | 映射BASIN_HOST|
+| 192.168.2.110 | centos7 | root/vagrant | 2G | basin | bidspy服务器 | 7000->17000 <br>8880->18880 <br>5000->15000 <br>5001->15001 <br>11081->11082| 映射BASIN_HOST|
 
 
 
