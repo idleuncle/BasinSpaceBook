@@ -1,6 +1,6 @@
 # 2017-12-11
 
-1. 使用vagrant 构建swarm环境与测试
+1. 构建swarm环境， bidspy 使用swarm 接入集成测试
 
 # 2017-12-08
 
@@ -25,8 +25,8 @@
 
 # 2017-12-04
 
-1. docker compose 集成测试，持续集成一些问题解决
-2. 学习了下前端框架ant 和 dva ，将demo 跑起来尝试 https://pro.ant.design/docs/getting-started-cn
+1. docker compose 集成测试，解决持续集成的一些问题
+2. 学习了下前端框架ant 和 dva ，尝试将demo 跑起来https://pro.ant.design/docs/getting-started-cn
 
 
 # 2017-11-29
