@@ -1,0 +1,60 @@
+{
+    "title": "BasinSpace",
+    "description": "BasinSpace",
+    "language": "zh",
+    "plugins": [
+        "-disqus",
+    "-github",
+    "-editlink",
+    "-search",
+    "search-pro",
+    "prism",
+    "prism-themes",
+    "-highlight",
+    "baidu",
+    "splitter",
+    "sitemap",
+    "chart",
+    "-styles-sass",
+    "-styles-less",
+    "atoc",
+    "ace",
+    "emphasize",
+    "tbfed-pagefooter",
+    "sectionx",
+    "github-buttons@2.1.0",
+    "sharing-plus@^0.0.2",                                                                       
+     "terminal@^0.3.2",
+     "alerts@^0.2.0",
+    "graph@^0.1.0",                                                                       
+    "chart@^0.2.0",
+    "anchor-navigation-ex@0.1.8",                                                  
+    "favicon@^0.0.2",
+    "github@^2.0.0"
+
+
+
+        ],
+    "pluginsConfig": {
+        "baidu": {
+            "token": "a9787f0ab45d5e237bab522431d0a7ec"
+        },
+        "sitemap": {
+            "hostname": "http://zhaoda.net/"
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-tomorrow.css"
+                ]
+        },
+        "search-pro": {
+            "cutWordLib": "nodejieba",
+            "defineWord" : ["Gitbook Use"]
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy basin 2017",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    }
+}
