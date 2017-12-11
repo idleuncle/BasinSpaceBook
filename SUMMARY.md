@@ -10,8 +10,9 @@
 
 * [1. Development](manual/1. Development.md)
   * [1.1. 私有仓库]
-    * [1.1.1. 私有仓库使用说明](si-you-cang-ku-shi-yong-shuo-ming.md)
-    * [1.1.2. 私有仓库镜像列表](si-you-cang-ku-jing-xiang-lie-biao.md)
+    * [1.1.1. 私有仓库搭建/部署](si-you-cang-ku-bu-shu.md)
+    * [1.1.2. 私有仓库使用说明](si-you-cang-ku-shi-yong-shuo-ming.md)
+    * [1.1.3. 私有仓库镜像列表](si-you-cang-ku-jing-xiang-lie-biao.md)
   * [1.2 持续集成使用说明](chi-xu-ji-cheng-shi-yong-shuo-ming.md)
 * [2. Packaging](manual/2. Packaging.md)
 * [3. Deployment](manual/3. Deployment.md)
