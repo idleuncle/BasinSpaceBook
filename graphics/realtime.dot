@@ -6,8 +6,8 @@ digraph graphname{
     Build_server [label="Build Server"]
     Test_server [label="Test Server"]
 
-    User->Repo [label="check in", fontcolor=darkgreen] // edge T->P
-    Repo->Ci [label="触发",fontcolor=darkgreen]
+    User->Repo [label="check in"] // edge T->P
+    Repo->Ci [label="触发"]
     Ci-> Build_server [label="build"]
     Build_server -> Ci [label="build result"]
 
