@@ -38,8 +38,8 @@ http://jenkins.yirong.win:10000/jenkins
     + 密码: jenkins
     点击项目编译.
 2. 命令行操作:
-    ~~~
-    curl -X POST http://jenkins:jenkins@115.28.208.122:17000/jenkins/job/build_bidspy/build
+    ~~~待修改.
+    # curl -X POST http://jenkins:jenkins@115.28.208.122:17000/jenkins/job/build_bidspy/build
     ~~~
  编译结果见basin监控平台(待完善)
  
