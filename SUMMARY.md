@@ -9,7 +9,8 @@
 ## BasinSpace手册
 
 * [1. Development](manual/1. Development.md)
-  * [1.1. 研发环境系统信息](xi-tong-huan-jing.md)
+  * [1.1. 整体研发环境信息](xi-tong-huan-jing.md)
+  * [1.2. gitlab使用说明](gitlab-shi-yong-shuo-ming.md)
   * 1.2. 私有仓库
     * [1.2.1. 私有仓库搭建/部署](si-you-cang-ku-bu-shu.md)
     * [1.2.2. 私有仓库使用说明](si-you-cang-ku-shi-yong-shuo-ming.md)
@@ -18,17 +19,19 @@
 * [2. Packaging](manual/2. Packaging.md)
 * [3. Deployment](manual/3. Deployment.md)
 
-## 讨论\(归档\)
-
-* [1. bidspy工程调整讨论](bidspygong-cheng-diao-zheng-tao-lun.md)
-* [2. 招标公共全国分布](zhao-biao-gong-gong-quan-guo-fen-bu.md)
-
 ## 研发
 
 * [1. 管理前端框架](research/frontend_wp.md)
 * [2. 容器网络设计\(Swarm\)](research/swarm_wp.md)
 * [3. 容器存储验证\(flock/portworx\)](research/storage_wp.md)
 * [4. 持续交付设计](chi-xu-jiao-fu.md)
+
+## 讨论\(归档\)
+
+* [1. bidspy工程调整讨论](bidspygong-cheng-diao-zheng-tao-lun.md)
+* [2. 招标公共全国分布](zhao-biao-gong-gong-quan-guo-fen-bu.md)
+
+
 
 ## 从零开始构建BasinSpace
 

@@ -11,3 +11,7 @@
 调整目录后
 ![](/graphics/bidspy_change.png)
 
+
+
+解决:
+1. 按照新目录调整.

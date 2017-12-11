@@ -1,17 +1,27 @@
 ## 研发环境地址
 
+环境配置说明:
+必须
+>export BASIN_HOST=10.142.55.199
+
+>export REGISTRY_ROOT=127.0.0.1:5000
+
+>export BASINSPACE_ROOT=/data/BasinSpace
+
+可选
+>export REGISTRY_DATA_DIR=/mnt/docker/docker-registry-basinspace/config/private_registry/data/docker/registry/v2
 
 - 内网服务:
 
-    * gitlab: [http://10.142.55.199:50080](http://10.142.55.199:50080)
-    * 镜像仓库: [http://10.142.55.199:5009](http://10.142.55.199:5009)
-    * 资源服务: [http://10.142.55.199:9997](http://10.142.55.199:9997)
-    * 私有仓库: http://10.142.55.199:5006
-    * 部署服务: http://10.142.55.199:8081/jenkins
-    * 私有仓库浏览: http://10.142.55.199:18080
+    * gitlab: [http://BASIN_HOST:50080](http://BASIN_HOST:50080)
+    * 镜像仓库: [http://BASIN_HOST:5009](http://BASIN_HOST:5009)
+    * 资源服务: [http://BASIN_HOST:9997](http://BASIN_HOST:9997)
+    * 私有仓库: http://BASIN_HOST:5006
+    * 部署服务: http://BASIN_HOST:8081/jenkins
+    * 私有仓库浏览: http://BASIN_HOST:18080
 
-    * release版本下载: http://10.142.55.199:9997/release
-    * stable版本下载: http://10.142.55.199:9997/stable
+    * release版本下载: http://BASIN_HOST:9997/release
+    * stable版本下载: http://BASIN_HOST:9997/stable
     
 - 外网服务:
 
@@ -40,13 +50,13 @@
     + ip: 192.168.2.101
     + user: root
     + password: vagrant
-    + 端口映射10.142.55.199
+    + 端口映射BASIN_HOST
     
-    7000->10.142.55.199:17000
-    8880->10.142.55.199:18880
-    5000->10.142.55.199:15000
-    5001->10.142.55.199:15001
-    11081->10.142.55.199:11082
+    7000->BASIN_HOST:17000
+    8880->BASIN_HOST:18880
+    5000->BASIN_HOST:15000
+    5001->BASIN_HOST:15001
+    11081->BASIN_HOST:11082
     
 ~~~3. s01 machine~~~
     ~~~ip: 192.168.2.101~~~
