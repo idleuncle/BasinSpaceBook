@@ -5,7 +5,6 @@
 * [概述](README.md)
 * [日报 - 陈予言](ri-bao-chen-yu-yan.md)
 * [日报 - 陈牵](ri-bao-qchen.md)
-* [招标公共全国分布](zhao-biao-gong-gong-quan-guo-fen-bu.md)
 
 ## BasinSpace手册
 
@@ -17,6 +16,7 @@
 ## 讨论\(归档\)
 
 * [1. bidspy工程调整讨论](bidspygong-cheng-diao-zheng-tao-lun.md)
+* [2. 招标公共全国分布](zhao-biao-gong-gong-quan-guo-fen-bu.md)
 
 ## 研发
 
