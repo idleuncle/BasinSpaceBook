@@ -1,15 +1,17 @@
 ## 研发环境地址
 
 环境配置说明:
-必须
->export BASIN_HOST=10.142.55.199
+**必须**
+~~~
+export BASIN_HOST=10.142.55.199
+export REGISTRY_ROOT=127.0.0.1:5000
+export BASINSPACE_ROOT=/data/BasinSpace
+~~~
 
->export REGISTRY_ROOT=127.0.0.1:5000
-
->export BASINSPACE_ROOT=/data/BasinSpace
-
-可选
->export REGISTRY_DATA_DIR=/mnt/docker/docker-registry-basinspace/config/private_registry/data/docker/registry/v2
+**可选**
+~~~
+export REGISTRY_DATA_DIR=/mnt/docker/docker-registry-basinspace/config/private_registry/data/docker/registry/v2
+~~~
 
 - 内网服务:
 
@@ -26,11 +28,13 @@
 - 外网服务:
 
 需配置hosts
->139.196.106.149 gitlab.yirong.win
->139.196.106.149 redmine.yirong.win
->139.196.106.149 gitbook.yirong.win
->139.196.106.149 jenkins.yirong.win
->139.196.106.149 ssh199.yirong.win
+~~~
+139.196.106.149 gitlab.yirong.win
+139.196.106.149 redmine.yirong.win
+139.196.106.149 gitbook.yirong.win
+139.196.106.149 jenkins.yirong.win
+139.196.106.149 ssh199.yirong.win
+~~~
 
     * gitbook: http://gitbook.yirong.win:10000/
     * trello: https://trello.com/b/lY0uCQ2q/basinspace
@@ -41,22 +45,18 @@
 
 ## 服务器列表:
 
-1. build machine(编译服务器)
-    + ip: 192.168.2.100
-    + user: root
-    + password: vagrant
+| IP地址 |  操作系统 | 账户/密码 | 分配的资源 | 使用者 | 用途 | 端口映射
+| --- | --- | --- | --- | --- | --- | --- |
+| 192.168.2.100 | centos7 | root/vagrant | 2G | basin | 编译服务器  | |
+| 192.168.2.101 | centos7 | root/vagrant | 2G | basin | 测试服务器 | |
+| 192.168.2.110 | centos7 | root/vagrant | 2G | basin | bidspy服务器 | 7000->BASIN_HOST:17000 \ 
+    8880->BASIN_HOST:18880 \
+    5000->BASIN_HOST:15000 \
+    5001->BASIN_HOST:15001 \
+    11081->BASIN_HOST:11082|
 
-2. test machine(测试服务器)
-    + ip: 192.168.2.101
-    + user: root
-    + password: vagrant
-    + 端口映射BASIN_HOST
-    
-    7000->BASIN_HOST:17000
-    8880->BASIN_HOST:18880
-    5000->BASIN_HOST:15000
-    5001->BASIN_HOST:15001
-    11081->BASIN_HOST:11082
+
+
     
 ~~~3. s01 machine~~~
     ~~~ip: 192.168.2.101~~~
