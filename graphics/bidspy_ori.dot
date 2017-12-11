@@ -1,0 +1,18 @@
+digraph graphname{
+
+    bidspy [label="bidspy"]      // node T
+    src [label="src"]  // node P
+    publisher [label="publisher"]
+    repository  [label="repository"]
+    scheduler [label="scheduler"]
+    spider [label="spider"]
+    extract [label="extract"]
+
+    bidspy->src
+    src->publisher
+    src->repository
+    src->scheduler
+    src->extract
+    src->spider
+
+}

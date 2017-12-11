@@ -17,7 +17,10 @@ bidspy/publisher
     test/portworx
 
 ## 私有仓库依赖图
-![](/assets/docker_deps.png)
+
+
+![](/graphics/docker_deps.png)
+
 
 
 ## 使用过程

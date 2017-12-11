@@ -471,7 +471,7 @@ GET /tasks/log/{taskname}
 
 
 <a name="gettaskresult"></a>
-### 获取任务采集日志(支持分页查询)
+### 获取任务结果采集日志(支持分页查询)
 ```
 GET /tasks/result/{taskid}
 ```
