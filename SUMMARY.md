@@ -1,4 +1,4 @@
-bui# Summary
+# Summary
 
 ## Basin平台白皮书
 
@@ -9,7 +9,8 @@ bui# Summary
 ## BasinSpace手册
 
 * [1. Development](manual/1. Development.md)
-    * [1.1. 私有仓库使用说明](si-you-cang-ku-shi-yong-shuo-ming.md)
+  * [1.1. 私有仓库使用说明](si-you-cang-ku-shi-yong-shuo-ming.md)
+  * [1.2 持续集成使用说明](12-chi-xu-ji-cheng-shi-yong-shuo-ming.md)
 * [2. Packaging](manual/2. Packaging.md)
 * [3. Deployment](manual/3. Deployment.md)
 
