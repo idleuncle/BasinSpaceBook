@@ -9,9 +9,9 @@
 ## BasinSpace手册
 
 * [1. Development](manual/1. Development.md)
+* [1.2. 私有仓库使用说明](si-you-cang-ku-shi-yong-shuo-ming.md)
 * [2. Packaging](manual/2. Packaging.md)
 * [3. Deployment](manual/3. Deployment.md)
-* [4. 私有仓库使用说明](si-you-cang-ku-shi-yong-shuo-ming.md)
 
 ## 讨论\(归档\)
 
