@@ -45,11 +45,11 @@ export REGISTRY_DATA_DIR=/mnt/docker/docker-registry-basinspace/config/private_r
 
 ## 服务器列表:
 
-| IP地址 |  操作系统 | 账户/密码 | 分配的资源 | 使用者 | 用途 | 端口映射
-| --- | --- | --- | --- | --- | --- | --- |
-| 192.168.2.100 | centos7 | root/vagrant | 2G | basin | 编译服务器  | |
-| 192.168.2.101 | centos7 | root/vagrant | 2G | basin | 测试服务器 | |
-| 192.168.2.110 | centos7 | root/vagrant | 2G | basin | bidspy服务器 | 7000->17000 <br>8880->18880 <br>5000->15000 <br>5001->15001 <br>11081->11082|
+| IP地址 |  操作系统 | 账户/密码 | 分配的资源 | 使用者 | 用途 | 端口映射 | 备注
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 192.168.2.100 | centos7 | root/vagrant | 2G | basin | 编译服务器  | | 由vagrant构建,映射宿主机为BASIN_HOST|
+| 192.168.2.101 | centos7 | root/vagrant | 2G | basin | 测试服务器 | | 由vagrant构建,映射宿主机为BASIN_HOST|
+| 192.168.2.110 | centos7 | root/vagrant | 2G | basin | bidspy服务器 | 7000->17000 <br>8880->18880 <br>5000->15000 <br>5001->15001 <br>11081->11082| 由vagrant构建,映射宿主机为BASIN_HOST|
 
 
 
