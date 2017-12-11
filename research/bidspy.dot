@@ -1,0 +1,23 @@
+digraph G {
+
+    edge [ fontname=Helvetica, fontcolor=red, fontsize=6 ];
+
+    "user" [label="用户"]
+    "website" [label="外部网站"]
+    "extractor"  [label="抽取服务"]
+    "udb-spider" [label="爬虫服务"]
+    
+
+    "demo" -> "basin-spider" [label="创建爬虫任务"];
+    "demo" -> "scheduler" [label="创建定时任务"];
+    "demo" -> "repository" [label="获取订阅抽取结果"];
+    "user" ->  "demo" [label="查看订阅内容"];
+    "extractor" -> "scheduler" [label="返回抽取结果"]
+    "scheduler" -> "repository" [label="存储抽取结果"]
+    "repository" -> "scheduler" [label="从数据库获取爬虫爬取数据"]
+    "scheduler" -> "extractor" [label="将爬取数据发送到抽取服务"]
+    "website" -> "udb-spider" [label="抓取提取页面"];
+    "udb-spider" -> "repository" [label="存储爬取结果"];
+    "basin-spider" -> "udb-spider" [label="控制爬虫"];
+    
+}

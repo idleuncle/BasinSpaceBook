@@ -1,0 +1,10 @@
+digraph G {
+
+    edge [ fontname=Helvetica, fontcolor=red, fontsize=6 ];
+
+    "网站" -> "爬虫服务" [label="抓取提取页面"];
+    "爬虫服务" -> "爬虫结果数据" [label="抓取公告的标题，公告正文部分的html，其他数据"];
+    "爬虫结果数据" -> "抽取服务" [label="根据规则抽取相关信息"]
+    "抽取服务" -> "抽取结果数据" [label="抽取结果"]
+    
+}
