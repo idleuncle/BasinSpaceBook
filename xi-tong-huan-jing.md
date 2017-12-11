@@ -1,5 +1,6 @@
 ## 研发环境地址
 
+
 - 内网服务:
 
     * gitlab: [http://10.142.55.199:50080](http://10.142.55.199:50080)
@@ -14,10 +15,17 @@
     
 - 外网服务:
 
+需配置hosts
+>139.196.106.149 gitlab.yirong.win
+>139.196.106.149 redmine.yirong.win
+>139.196.106.149 gitbook.yirong.win
+>139.196.106.149 jenkins.yirong.win
+>139.196.106.149 ssh199.yirong.win
+
     * gitbook: http://gitbook.yirong.win:10000/
     * trello: https://trello.com/b/lY0uCQ2q/basinspace
     * 部署服务: http://jenkins.yirong.win:10000/jenkins
-    * gitlab_ssh: 	ssh://git@139.196.106.149:10022/basinspace/bidspy.git
+    * gitlab_ssh: 	ssh://git@ssh199.yirong.win:10022/basinspace/bidspy.git
     
     
 
