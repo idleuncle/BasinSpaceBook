@@ -1,6 +1,6 @@
 # 2017-12-11
 
-1. 弃用docker-machine, 使用vagrant 构建swarm环境与测试
+1. 使用vagrant 构建swarm环境与测试
 
 # 2017-12-08
 
