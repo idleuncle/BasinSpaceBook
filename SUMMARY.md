@@ -5,6 +5,7 @@
 * [概述](README.md)
 * [日报 - 陈予言](ri-bao-chen-yu-yan.md)
 * [日报 - 陈牵](ri-bao-qchen.md)
+* [bidspy工程调整讨论](bidspygong-cheng-diao-zheng-tao-lun.md)
 
 ## BasinSpace手册
 
