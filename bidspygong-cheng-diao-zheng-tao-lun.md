@@ -6,3 +6,6 @@
 1. 提取spider,extract等属于basin模块代码,各自存放git工程,在工程内部包含了各自模块的独立部署和独立测试代码.
 2. bdispy等应用系统需要依赖basin模块代码,只需要从私有仓库中获取最新的版本打包部署.
 
+[](/graphics/bidspy_ori.png)
+---
+[](/graphics/bidspy_change.png)
