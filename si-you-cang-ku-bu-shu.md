@@ -1,4 +1,5 @@
-# 1. 仓库分类
+# 私有仓库搭建/部署
+## 1. 仓库分类
 
 1. 私有开发仓库
     + 提供开发使用,开发人员可以pull, push镜像
@@ -9,7 +10,7 @@
 
 basinspace 私有仓库地址: http://10.142.55.199:5006
 basinspace 镜像地址: http://10.142.55.199:5009
-# 2. 部署私有仓库(private registry)
+## 2. 部署私有仓库(private registry)
 工作流程:
 用户能够pull, push镜像,pull 时需要指定url地址,
 
@@ -70,7 +71,7 @@ dock-compose up
 
 [**$**](http://127.0.0.1:5006)**PRIVATE\_REGISTRY** 为设定部署的ip地址
 
-## 私有仓库使用
+## 3. 私有仓库使用
 
 客户端需要修改docker配置
 
@@ -130,7 +131,7 @@ docker save docker.io/registry > registry2.6.2.tar
 ```
 docker load < registry2.6.2.tar
 ```
-# 3. 部署镜像仓库(mirror)
+# 4. 部署镜像仓库(mirror)
 
 工作流程:
 镜像仓库先去remoteurl指定的地址同步index数据,当用户pull 镜像时候,先查找是否存在该镜像,如果本地有镜像直接返回,本地没有该镜像,会同步remoteurl下载并返回镜像给客户端,最终在私有镜像仓库中会存有一份镜像,下次用户在pull直接从镜像仓库中返回,提高速度.
@@ -192,7 +193,12 @@ services:
 echo '{"registry-mirrors":["http://'${PRIVATE_REGISTRY}':5009"]}' > /etc/docker/daemon.json
 
 例如:
-{  "registry-mirrors": ["http://10.142.55.199:5009"],  "insecure-registries": ["10.142.55.177:8000","10.142.55.199:5006"]}        
+
+{
+  "registry-mirrors": ["http://10.142.55.199:5009"],
+  "insecure-registries": ["10.142.55.177:8000","10.142.55.199:5006"]
+}
+        
 
 
 
