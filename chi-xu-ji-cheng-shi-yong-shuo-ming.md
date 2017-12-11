@@ -11,7 +11,7 @@ http://jenkins.yirong.win:10000/jenkins
     
 + spider
     + spider_build_all
-    + bidspy_test
+    + spider_test
 
 
 ## 持续集成使用说明
