@@ -32,15 +32,15 @@
 ## 服务器列表:
 
 1. build machine(编译服务器)
-    ip: 192.168.2.100
-    user: root
-    password: vagrant
+    + ip: 192.168.2.100
+    + user: root
+    + password: vagrant
 
 2. test machine(测试服务器)
-    ip: 192.168.2.101
-    user: root
-    password: vagrant
-    端口映射10.142.55.199
+    + ip: 192.168.2.101
+    + user: root
+    + password: vagrant
+    + 端口映射10.142.55.199
     
     7000->10.142.55.199:17000
     8880->10.142.55.199:18880
@@ -52,7 +52,7 @@
     ~~~ip: 192.168.2.101~~~
 ~~~    user~~~
 
-## 端口列表
+## 内网服务器端口列表
 
 1. private registry 5006
 3. mirror registry 5009
@@ -63,52 +63,51 @@
 8. etl 7000
 9. bidspy 12000
 10. assets 9997 \(静态服务器\)
+11. hugo 9998 (静态站点发布)
 
 
-## 镜像列表
-
-1. alpine 3.6
-2. centos 7.4.1708
-3. jessie-20171009
-4. frolvlad/alpine-oraclejdk8 full
-5. golang 1.9.1
-6. nginx 1.13.5
-7. redis 3.2.11
-8. mongo 3.0.15
-9. python:2.7-alpine
-10. python:2
 
 ## 系统环境启停列表
 
-主要在gpu服务器\(10.142.55.199\)
+主要在gpu服务器
 
-* gitlab: /mnt/docker/docker-gitlab-basinspace
+* dockerd:
+    * 启动: sudo service docker start
+    * 停止: sudo service docker stop
+
+* gitlab: 
+  * 路径: /mnt/docker/docker-gitlab-basinspace
   * 启动:
       make start
   * 停止:
       make stop
-* gitbook: /mnt/docker/docker-gitbook-basinspace
 
-  * 启动:
-      docker-compose up -d
-  * 停止:
-       docker-compose stop
+* gitbook: 
+    * 路径: /mnt/docker/docker-gitbook-basinspace
+    * 启动: docker-compose up -d
+    * 停止: docker-compose stop
 
-* private\_registry: /mnt/docker/docker-registry-basinspace
+* private\_registry:        
+    * 路径: /mnt/docker/docker-registry-basinspace
 
-  * 启动:
-      start\_registry.sh 
-  * 停止:
-      stop\_registry.sh
+    * 启动: start\_registry.sh 
+    * 停止: stop\_registry.sh
 
 * jenkins: jenkins\(暂定\)
+    + 路径: /apps/apache-tomcat-8.5.23/bin
+    + 启动: sh startup.sh
+    + 停止: sh shutdown.sh
 
-* assets\(静态资源服务\): /mnt/docker/bidspy\_publish
+* assets\(静态资源服务\): 
+    * 路径: /mnt/docker/bidspy\_publish
 
-  * 启动:
-      docker-compose up -d
-  * 停止:
-      docker-compose stop
+    * 启动: docker-compose up -d
+    * 停止: docker-compose stop
+
+* 静态站点:
+    * 路径: /home/qchen/BasinSpace/apps/portal
+    * 启动: sh  start.sh
+    * 停止: sh stop.sh
 
 
 
