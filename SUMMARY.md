@@ -5,7 +5,6 @@
 * [概述](README.md)
 * [日报 - 陈予言](ri-bao-chen-yu-yan.md)
 * [日报 - 陈牵](ri-bao-qchen.md)
-* [bidspy工程调整讨论](bidspygong-cheng-diao-zheng-tao-lun.md)
 
 ## BasinSpace手册
 
@@ -20,6 +19,7 @@
 * [2. 容器网络设计\(Swarm\)](research/swarm_wp.md)
 * [3. 容器存储验证\(flock/portworx\)](research/storage_wp.md)
 * [4. 持续交付设计](chi-xu-jiao-fu.md)
+* [bidspy工程调整讨论](bidspygong-cheng-diao-zheng-tao-lun.md)
 
 ## 从零开始构建BasinSpace
 
