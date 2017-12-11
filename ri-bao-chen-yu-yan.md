@@ -1,6 +1,6 @@
 # 2017-12-08
 
-1. docker swarm 运行错误排查
+1. 弃用docker-machine, 使用vagrant 构建swarm环境
 2. 设计文档与架构图
 
 # 2017-12-07
