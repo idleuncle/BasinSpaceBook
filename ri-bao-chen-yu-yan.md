@@ -2,7 +2,6 @@
 
 1. 弃用docker-machine, 使用vagrant 构建swarm环境
 
-
 # 2017-12-07
 
 1. docker swarm network 不互通，未解决
