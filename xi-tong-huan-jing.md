@@ -49,14 +49,9 @@ export REGISTRY_DATA_DIR=/mnt/docker/docker-registry-basinspace/config/private_r
 | --- | --- | --- | --- | --- | --- | --- |
 | 192.168.2.100 | centos7 | root/vagrant | 2G | basin | 编译服务器  | |
 | 192.168.2.101 | centos7 | root/vagrant | 2G | basin | 测试服务器 | |
-| 192.168.2.110 | centos7 | root/vagrant | 2G | basin | bidspy服务器 | 7000->BASIN_HOST:17000 <br>8880->BASIN_HOST:18880 <br>5000->BASIN_HOST:15000 <br>5001->BASIN_HOST:15001 <br>11081->BASIN_HOST:11082|
+| 192.168.2.110 | centos7 | root/vagrant | 2G | basin | bidspy服务器 | 7000->17000 <br>8880->18880 <br>5000->15000 <br>5001->15001 <br>11081->11082|
 
 
-
-    
-~~~3. s01 machine~~~
-    ~~~ip: 192.168.2.101~~~
-~~~    user~~~
 
 ## 内网服务器端口列表
 
