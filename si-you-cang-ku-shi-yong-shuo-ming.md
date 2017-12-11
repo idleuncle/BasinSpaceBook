@@ -34,19 +34,19 @@ bidspy/publisher
 
 **2. 私有仓库浏览**
 
-    访问地址: http://10.142.55.199:18080/
+    访问地址: http://$PRIVATE_REGISTRY:18080/
 
 **3. 获取仓库版本**
 
     ~~~
-    docker pull 10.142.55.199:5006/basin/py27-ws:x.x
+    docker pull $PRIVATE_REGISTRY:5006/basin/py27-ws:x.x
     ~~~
 
 **4. 镜像上传**
 
     ~~~
-    docker tag py27-ws:1.0 10.142.55.199:5006/basin/py27-ws:x.x
-    docker push 10.142.55.199:5006/basin/py27-ws:x.x
+    docker tag py27-ws:1.0 $PRIVATE_REGISTRY:5006/basin/py27-ws:x.x
+    docker push $PRIVATE_REGISTRY:5006/basin/py27-ws:x.x
     ~~~
 
 **5. 镜像删除**
