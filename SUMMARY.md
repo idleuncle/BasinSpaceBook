@@ -11,13 +11,31 @@
 * [1. Development](manual/1. Development.md)
   * [1.1. 整体研发环境信息](xi-tong-huan-jing.md)
   * [1.2. gitlab使用说明](gitlab-shi-yong-shuo-ming.md)
-  * 1.2. 私有仓库
-    * [1.2.1. 私有仓库搭建/部署](si-you-cang-ku-bu-shu.md)
-    * [1.2.2. 私有仓库使用说明](si-you-cang-ku-shi-yong-shuo-ming.md)
-    * [1.2.3. 私有仓库镜像列表](si-you-cang-ku-jing-xiang-lie-biao.md)
-  * [1.3 持续集成使用说明](chi-xu-ji-cheng-shi-yong-shuo-ming.md)
+  * 1.3. 私有仓库
+    * [1.3.1. 私有仓库搭建/部署](si-you-cang-ku-bu-shu.md)
+    * [1.3.2. 私有仓库使用说明](si-you-cang-ku-shi-yong-shuo-ming.md)
+    * [1.3.3. 私有仓库镜像列表](si-you-cang-ku-jing-xiang-lie-biao.md)
+  * [1.4. 持续集成使用说明](chi-xu-ji-cheng-shi-yong-shuo-ming.md)
+  * [1.5. 代码目录结构]
+    * [1.5.1. spider](spider-src-struct.md) 
+      * [1.5.1.1. udb-spider](pspider-src-struct.md)
+    * [1.5.2. repository](repository-src-struct.md)
+    * [1.5.3. bidspy](bidspy-src-struct.md)
+  * [1.6. 其他支撑环境]
+    * [gitbook](/gitbook-shi-bu-shu-shuo-ming.md)
+    * [gitlab](/gitlab-bu-shu-shuo-ming.md)
+    * [jenkins](/jenkins-bu-shu-shuo-ming.md)
+    * [portal](/portal-bu-shu-shuo-ming.md)
+    * [assets](/assets-bu-shu-shuo-ming.md)
 * [2. Packaging](manual/2. Packaging.md)
+  * [2.1. spider Package](spider-package.md)
+  * [2.2. repository Package](repository-package.md)
+  * [2.3. bidspy Package](bidspy-package.md)
+  
 * [3. Deployment](manual/3. Deployment.md)
+  * [3.1. spider部署说明](spider-bu-shu-shuo-ming.md)
+  * [3.2. repository部署说明](repository-bu-shu-shuo-ming.md)
+  * [3.3. bidspy部署说明](bidspy-bu-shu-shuo-ming.md)
 
 ## 研发
 

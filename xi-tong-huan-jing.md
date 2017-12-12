@@ -1,17 +1,6 @@
-## 研发环境地址
+# 研发环境地址
 
-环境配置说明:
-**必须**
-~~~
-export BASIN_HOST=10.142.55.199
-export REGISTRY_ROOT=127.0.0.1:5000
-export BASINSPACE_ROOT=/data/BasinSpace
-~~~
 
-**可选**
-~~~
-export REGISTRY_DATA_DIR=/mnt/docker/docker-registry-basinspace/config/private_registry/data/docker/registry/v2
-~~~
 
 - 内网服务:
 

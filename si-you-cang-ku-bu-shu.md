@@ -8,11 +8,11 @@
 3. 镜像仓库
     + 提供用户pull拉取仓库中镜像.
 
-basinspace 私有仓库地址: http://10.142.55.199:5006
-basinspace 镜像地址: http://10.142.55.199:5009
+basinspace 私有仓库地址: http://BASIN_HOST:5006
+basinspace 镜像地址: http://BASIN_HOST:5009
 ## 部署私有仓库(private registry)
 工作流程:
-用户能够pull, push镜像,pull 时需要指定url地址,
+开发人员能够pull, push镜像,pull 时需要指定url地址
 
 * 安装私有仓库
 
@@ -78,6 +78,10 @@ dock-compose up
 ```
 echo '{"insecure-registries":["'${PRIVATE_REGISTRY}':5006"]}' > /etc/docker/daemon.json
 ```
+
+## 通过web浏览器
+
+http://
 
 ### 获取私有仓库列表
 
