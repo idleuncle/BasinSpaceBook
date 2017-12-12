@@ -18,7 +18,7 @@
   * [1.4. 持续集成使用说明](chi-xu-ji-cheng-shi-yong-shuo-ming.md)
   * [1.5. 代码目录结构]
     * [1.5.1. spider](spider-src-struct.md) 
-      * [1.5.1.1. udb-spider](pspider-src-struct.md)
+      * [1.5.1.1. udb-spider](pyspider-src-struct.md)
     * [1.5.2. repository](repository-src-struct.md)
     * [1.5.3. bidspy](bidspy-src-struct.md)
   * [1.6. 其他支撑环境]
