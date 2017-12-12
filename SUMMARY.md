@@ -22,11 +22,7 @@
     * [1.5.2. repository](repository-src-struct.md)
     * [1.5.3. bidspy](bidspy-src-struct.md)
   * [1.6. 其他支撑环境](zhi-cheng-huan-jing.md)
-    * [1.6.1. gitbook](gitbook-shi-bu-shu-shuo-ming.md)
-    * [1.6.2. gitlab](gitlab-bu-shu-shuo-ming.md)
-    * [1.6.3. jenkins](jenkins-bu-shu-shuo-ming.md)
-    * [1.6.4. portal](portal-bu-shu-shuo-ming.md)
-    * [1.6.5. assets](assets-bu-shu-shuo-ming.md)
+    
 * [2. Packaging](manual/2. Packaging.md)
   * [2.1. spider Package](spider-package.md)
   * [2.2. repository Package](repository-package.md)
