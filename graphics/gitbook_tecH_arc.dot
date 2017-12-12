@@ -1,0 +1,20 @@
+digraph graphname{
+
+    gitbook [label="basin_spider_api"]      // node T
+    code_update [label="pyspider_webui"]  // node P
+    IE [label="IE"]
+    git [label="git"]
+    
+
+    gitbook ->git
+    gitbook -> IE 
+
+    code_update ->  git
+
+
+}
+
+
+
+
+
