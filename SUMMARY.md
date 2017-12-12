@@ -16,17 +16,17 @@
     * [1.3.2. 私有仓库使用说明](si-you-cang-ku-shi-yong-shuo-ming.md)
     * [1.3.3. 私有仓库镜像列表](si-you-cang-ku-jing-xiang-lie-biao.md)
   * [1.4. 持续集成使用说明](chi-xu-ji-cheng-shi-yong-shuo-ming.md)
-  * [1.5. 代码目录结构]
+  * 1.5. 代码目录结构
     * [1.5.1. spider](spider-src-struct.md) 
       * [1.5.1.1. udb-spider](pyspider-src-struct.md)
     * [1.5.2. repository](repository-src-struct.md)
     * [1.5.3. bidspy](bidspy-src-struct.md)
-  * [1.6. 其他支撑环境]
-    * [gitbook](/gitbook-shi-bu-shu-shuo-ming.md)
-    * [gitlab](/gitlab-bu-shu-shuo-ming.md)
-    * [jenkins](/jenkins-bu-shu-shuo-ming.md)
-    * [portal](/portal-bu-shu-shuo-ming.md)
-    * [assets](/assets-bu-shu-shuo-ming.md)
+  * 1.6. 其他支撑环境
+    * [1.6.1. gitbook](/gitbook-shi-bu-shu-shuo-ming.md)
+    * [1.6.2. gitlab](/gitlab-bu-shu-shuo-ming.md)
+    * [1.6.3. jenkins](/jenkins-bu-shu-shuo-ming.md)
+    * [1.6.4. portal](/portal-bu-shu-shuo-ming.md)
+    * [1.6.5. assets](/assets-bu-shu-shuo-ming.md)
 * [2. Packaging](manual/2. Packaging.md)
   * [2.1. spider Package](spider-package.md)
   * [2.2. repository Package](repository-package.md)
