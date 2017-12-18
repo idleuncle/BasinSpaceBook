@@ -1,5 +1,5 @@
 ## 从零开始构建BasinSpace
-* [1. 前言](/cong-ling-kai-shi-gou-jian-basinspace.md)
+* [1. 前言](./cong-ling-kai-shi-gou-jian-basinspace.md)
 * [2. 招标公告订阅演示应用](zhao-biao-gong-gao-ding-dan-xi-tong.md)
 * [3. 版本发布与部署\[标准\]](ban-ben-fa-bu-yu-bu-shu.md)
 
