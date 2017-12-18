@@ -29,7 +29,6 @@
       * [1.7.4. 爬虫平台](pa-chong-ping-tai.md)
       * [1.7.5. basin-spider api](basin-spider-api.md)
       * [1.7.6. 调度服务](diao-du-fu-wu.md)
-      * [1.7.7. 平台实现路径](ping-tai-shi-xian-lu-jing.md)
       * [1.7.8. 订阅与推送的简单架构](ding-yue-yu-tui-song-de-jian-dan-jia-gou.md)
 
 * [2. Packaging](manual/2. Packaging.md)
@@ -58,7 +57,7 @@
 
 ## 从零开始构建BasinSpace
 * [归档日志](bidspy_gui-dang-info.md)
-
+* [里程碑](ping-tai-shi-xian-lu-jing.md)
 
 
 

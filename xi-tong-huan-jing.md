@@ -1,5 +1,20 @@
 # 研发环境地址
 
+## 环境变量
+
+**必须**
+~~~
+export BASIN_HOST=10.142.55.199
+export BASINSPACE_ROOT=/data/BasinSpace
+export PRIVATE_REGISTRY=10.142.55.199:5006
+echo "export PRIVATE_REGISTRY=10.142.55.199:5006" >> ~/.bashrc
+~~~
+
+**可选**
+~~~
+export REGISTRY_DATA_DIR=/mnt/docker/docker-registry-basinspace/config/private_registry/data/docker/registry/v2
+~~~
+
 
 
 - 内网服务:
