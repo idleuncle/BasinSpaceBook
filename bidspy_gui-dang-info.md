@@ -3,6 +3,7 @@
 * [2. 招标公告订阅演示应用](zhao-biao-gong-gao-ding-dan-xi-tong.md)
 * [3. 版本发布与部署\[标准\]](ban-ben-fa-bu-yu-bu-shu.md)
 
+* [4. testaaa](/bidspygong-cheng-diao-zheng-tao-lun.md)
 
 ## Basin平台研发日志
 
