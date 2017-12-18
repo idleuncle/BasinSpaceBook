@@ -30,7 +30,7 @@
     "graph@^0.1.0",                                                                       
     "chart@^0.2.0",
     "anchor-navigation-ex@0.1.8",                                                  
-    "expandable-chapters-small",
+    "-expandable-chapters-small",
     "favicon@^0.0.2",
     "github@^2.0.0"
 
