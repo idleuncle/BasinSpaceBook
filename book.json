@@ -24,6 +24,7 @@
     "sectionx",
     "github-buttons@2.1.0",
     "sharing-plus@^0.0.2",                                                                       
+    "toggle-chapters",
      "terminal@^0.3.2",
      "alerts@^0.2.0",
     "graph@^0.1.0",                                                                       
