@@ -8,7 +8,7 @@
 
 ## BasinSpace手册
 
-* [1. Development](manual/1. Development.md)
+* **[1. Development](manual/1. Development.md)**
   * [1.1. 整体研发环境信息](xi-tong-huan-jing.md)
   * [1.2. gitlab使用说明](gitlab-shi-yong-shuo-ming.md)
   * [1.3. 私有仓库](si-you-cang-ku.md)
