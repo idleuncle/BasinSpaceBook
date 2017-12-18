@@ -44,22 +44,16 @@
   
 ## BASINSPACE研发
 
-### 前端
-### 网络
-### 存储
-### 持续交付
 * [1. 管理前端框架](research/frontend_wp.md)
 * [2. 容器网络设计\(Swarm\)](research/swarm_wp.md)
 * [3. 容器存储验证\(flock/portworx\)](research/storage_wp.md)
 * [4. 持续交付设计](chi-xu-jiao-fu.md)
 * [5. 容器网络部署流程与步骤](research/swarm_deploy.md)
 
-
 ## 讨论\(归档\)
 
 * [1. bidspy工程调整讨论](bidspygong-cheng-diao-zheng-tao-lun.md)
 * [2. 招标公共全国分布](zhao-biao-gong-gong-quan-guo-fen-bu.md)
-
 
 
 ## 从零开始构建BasinSpace
