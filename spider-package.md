@@ -18,3 +18,6 @@ sh build.sh
 sh test.sh
 ```
 
+当前test.sh 测试内容包含
+1. 端口连通测试
+2. 冒烟测试
