@@ -1,5 +1,6 @@
 ## 从零开始构建BasinSpace
-#子页面暂时无法打开链接, 待解决
+
+**!!子页面暂时无法打开链接, 待解决**
 
 * [1. 前言](./cong-ling-kai-shi-gou-jian-basinspace.md)
 * [2. 招标公告订阅演示应用](zhao-biao-gong-gao-ding-dan-xi-tong.md)
