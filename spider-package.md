@@ -9,8 +9,6 @@
 sh build.sh
 ```
 
-执行后会自动生成basin-spider和pyspider docker image,并自动上传到私有仓库.
-
 
 ## 3. 测试
 
@@ -21,3 +19,6 @@ sh test.sh
 当前test.sh 测试内容包含
 1. 端口连通测试
 2. 冒烟测试
+
+## 4. 上传到私有仓库
+执行后会自动生成basin-spider和pyspider docker image ,可以push到私有仓库.(只要测试通过,可以由持续集成传到私有仓库)
