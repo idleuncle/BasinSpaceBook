@@ -57,7 +57,12 @@
     * thepaper_cn: http://m.thepaper.cn/
 
 5. 复杂 特殊
-微信,新浪微博 微博qq weibo人民 100ppi(大宗商品) cqcoal(post)
+    * 微信
+    * 新浪微博 
+    * 微博qq 
+    * weibo人民 
+    * 100ppi(大宗商品) 
+    * cqcoal(post)
 
 
 
