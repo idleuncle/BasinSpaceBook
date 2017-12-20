@@ -35,7 +35,6 @@
     * yejinzg: http://www.yejinzg.com/list/40.html
     * aemc_gov_au: http://www.aemc.gov.au/News-Center/What-s-New
 
-
 3. li
     * zhong_ji_wei(权重判断错误): http://www.ccdi.gov.cn/yw/
     * chinapower(权重判断错误): http://www.chinapower.com.cn/focus/
@@ -48,7 +47,6 @@
     * gov_cn: http://www.gov.cn/xinwen/yaowen.htm
     * milt: http://www.miit.gov.cn/n1146290/n1146402/n1146455/index.html
 
-
 4. div
     * hotpoint_baidu: http://news.baidu.com/ns?tn=news&word=中国
     * yi_dian_zi_xun: http://www.yidianzixun.com/channel/hot
@@ -57,7 +55,6 @@
     * nandudu: http://www.nandudu.com/news
     * shanghai_guancha: http://www.shobserver.com/news/list?section=1
     * thepaper_cn: http://m.thepaper.cn/
-
 
 5. 复杂 特殊
 微信,新浪微博 微博qq weibo人民 100ppi(大宗商品) cqcoal(post)
