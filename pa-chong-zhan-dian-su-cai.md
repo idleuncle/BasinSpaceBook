@@ -1,8 +1,6 @@
-./
-ssa
-ssa
-ssa
-ssa
+
+有些页面失效,有些页面是根据关键字匹配来组合搜索.例如:http://news.baidu.com/ns?tn=news&word=%s
+
 ## 所有素材
 + http://i.ifeng.com/
 + http://inews.ifeng.com/?srctag=xzydh1
