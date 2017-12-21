@@ -9,9 +9,6 @@
 + http://portalnew.sgecs.sgcc.com.cn/sgecsweb/xwzx/jcdt/index.shtml
 + http://portalnew.sgecs.sgcc.com.cn/sgecsweb/xwzx/bbxw/index.shtml
 + http://portalnew.sgecs.sgcc.com.cn/sgecsweb/xwzx/gsyw/index.shtml
-+ http://portal\.lnjt\.sgcc\.com\.cn/html/\d{4}-\d{2}-\d{2}/\d{7,11}\.htm
-+ http://10\.149\.0\.160/site14/tjxw/tjxw/\d{2}/\d{4}\.shtml
-+ http://portal\.lnjt\.sgcc\.com\.cn/html/\d{4}-\d{2}-\d{2}/gather_\d{4,8}\.html
 + http://portal.lnjt.sgcc.com.cn/category/3/
 + http://10.149.0.160/site14/tjxw/tjxw/index.shtml
 + http://portal.lnjt.sgcc.com.cn/category/26/
@@ -785,9 +782,6 @@
 		* http://portalnew.sgecs.sgcc.com.cn/sgecsweb/xwzx/bbxw/index.shtml
 		* http://portalnew.sgecs.sgcc.com.cn/sgecsweb/xwzx/gsyw/index.shtml
 	* neiwang_luneng_single
-		* http://portal\.lnjt\.sgcc\.com\.cn/html/\d{4}-\d{2}-\d{2}/\d{7,11}\.htm
-		* http://10\.149\.0\.160/site14/tjxw/tjxw/\d{2}/\d{4}\.shtml
-		* http://portal\.lnjt\.sgcc\.com\.cn/html/\d{4}-\d{2}-\d{2}/gather_\d{4,8}\.html
 		* http://portal.lnjt.sgcc.com.cn/category/3/
 		* http://10.149.0.160/site14/tjxw/tjxw/index.shtml
 		* http://portal.lnjt.sgcc.com.cn/category/26/
