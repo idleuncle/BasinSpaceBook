@@ -39,6 +39,8 @@
   * [3.1. spider部署说明](spider-bu-shu-shuo-ming.md)
   * [3.2. repository部署说明](repository-bu-shu-shuo-ming.md)
   * [3.3. bidspy部署说明](bidspy-bu-shu-shuo-ming.md)
+* [4. Swarm集群部署](manual/4. Swarm.md)
+
   
 ## BASINSPACE研发
 
