@@ -56,7 +56,9 @@
 * [1. bidspy工程调整讨论](bidspygong-cheng-diao-zheng-tao-lun.md)
 * [2. 招标公共全国分布](zhao-biao-gong-gong-quan-guo-fen-bu.md)
 * [3. 爬虫定向采集分类](pa-chong-ding-xiang-cai-ji-fen-lei.md)
-    * [3.1. 爬虫站点素材](pa-chong-zhan-dian-su-cai.md)
+    * [3.1 国网国际站点分析](guo-wang-guo-ji-zhan-dian-fen-xi.md)
+    * [3.2. 爬虫站点素材](pa-chong-zhan-dian-su-cai.md)
+    * [3.3. 国网国际爬虫站点素材](guo-wang-guo-ji-pa-chong-zhan-dian-su-cai.md)
 
 ## 从零开始构建BasinSpace
 * [归档日志](bidspy_gui-dang-info.md)
