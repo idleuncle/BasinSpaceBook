@@ -17,7 +17,7 @@
     * [1.3.3. 私有仓库镜像列表](si-you-cang-ku-jing-xiang-lie-biao.md)
   * [1.4. 持续集成使用说明](chi-xu-ji-cheng-shi-yong-shuo-ming.md)
   * [1.5. 代码技术架构](dai-ma-mu-lu-jie-gou.md)
-    * [1.5.1. spider](spider-src-struct.md) 
+    * [1.5.1. spider](spider-src-struct.md)
     * [1.5.2. repository](repository-src-struct.md)
     * [1.5.3. bidspy](bidspy-src-struct.md)
   * [1.6. 其他支撑环境](zhi-cheng-huan-jing.md)
@@ -34,15 +34,15 @@
   * [2.1. spider Package](spider-package.md)
   * [2.2. repository Package](repository-package.md)
   * [2.3. bidspy Package](bidspy-package.md)
-  
+
 * [3. Deployment](manual/3. Deployment.md)
   * [3.1. spider部署说明](spider-bu-shu-shuo-ming.md)
   * [3.2. repository部署说明](repository-bu-shu-shuo-ming.md)
   * [3.3. bidspy部署说明](bidspy-bu-shu-shuo-ming.md)
-  
+
 * [4. Swarm集群部署](manual/4. Swarm.md)
 
-  
+
 ## BASINSPACE研发
 
 * [1. 管理前端框架](research/frontend_wp.md)
@@ -50,6 +50,8 @@
 * [3. 容器存储验证\(flock/portworx\)](research/storage_wp.md)
 * [4. 持续交付设计](chi-xu-jiao-fu.md)
 * [5. 容器网络部署流程与步骤](research/swarm_deploy.md)
+* [6. ldap与kebores搭建流程与步骤](research/ldap_kebores.md)
+
 
 ## 讨论\(归档\)
 
