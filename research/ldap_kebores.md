@@ -11,7 +11,7 @@ docker pull antagme/kerberos:supervisord
 
 # 自动构建脚本
 
-https://github.com/antagme/Documentation_Project/blob/master/AutomatedScript/start_example1.sh
+bidspy/scripts/init_ldap_kerberos.sh
 
 
 # 启动 container
@@ -39,7 +39,9 @@ docker run --name client --hostname client.edt.org --net ldap --ip 172.18.0.8 --
 
 
 验证
-cat /var/kerberos/krb5kdc/kadm5.acl
+
+    cat /var/kerberos/krb5kdc/kadm5.acl
+
 中有 */admin@EDT.ORG *
 // Note: This Means All principal entries like blablabla/admin have Admin permission.
 https://github.com/antagme/Documentation_Project/blob/master/example3.md
@@ -214,9 +216,9 @@ ldapsearch -h ldap.edt.org -Y GSSAPI -b 'dc=edt,dc=org' -ZZ cn=user01
 # 配置 ldap.conf
 
 路径： /etc/openldap/ldap.conf
-
 ```
 # OpenLDAP client configuration file. Used for host default settings
+
 BASE            dc=edt,dc=org
 URI             ldap://ldap.edt.org/
 SASL_MECH GSSAPI
