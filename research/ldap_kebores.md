@@ -229,10 +229,3 @@ access to *
     #TLS_REQCERT     allow
     #SASL_NOCANON on
     ```
-
-- BASE: The Base branch of our Ldap DDBB (for not need -b 'dc=edt,dc=org' on ldap client utility command )
-- URI: the uri to ldap server (FQDN) (for not need -H ldap://ldap.edt.org or -h ldap.edt.org on ldap client utility command)
-- SASL_MECH: The SASL mech we will use , in our case GSSAPI ( for not need -Y GSSAPI on ldap client utility command)
-- SASL_REALM: The SASL Realm we defined on slapd.conf file
-- TLS_CACERT: The Absolute route to the CA Cert who signed Ldap Certificates
-
