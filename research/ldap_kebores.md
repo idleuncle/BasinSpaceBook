@@ -199,35 +199,37 @@ access to *
 
 # import keytab
 
-kadmin -p admin/admin
-Authenticating as principal admin/admin with password.  # 前面设置的密码是 admin
-Password for admin/admin@EDT.ORG:
-kadmin: ktadd -k /etc/krb5.keytab ldap/ldap.edt.org
+    kadmin -p admin/admin
+    Authenticating as principal admin/admin with password.  # 前面设置的密码是 admin
+    Password for admin/admin@EDT.ORG:
+    kadmin: ktadd -k /etc/krb5.keytab ldap/ldap.edt.org
 
 
 # 测试 ldap perform properly REGEX filtering
 
-ldapwhoami -h ldap.edt.org -D 'dc=edt,dc=org' -Y GSSAPI -ZZ
+    ldapwhoami -h ldap.edt.org -D 'dc=edt,dc=org' -Y GSSAPI -ZZ
 
 #  Perform a ldapsearch command for being secure about our success.
 
-ldapsearch -h ldap.edt.org -Y GSSAPI -b 'dc=edt,dc=org' -ZZ cn=user01
+    ldapsearch -h ldap.edt.org -Y GSSAPI -b 'dc=edt,dc=org' -ZZ cn=user01
 
 # 配置 ldap.conf
 
 路径： /etc/openldap/ldap.conf
-```
-# OpenLDAP client configuration file. Used for host default settings
 
-BASE            dc=edt,dc=org
-URI             ldap://ldap.edt.org/
-SASL_MECH GSSAPI
-SASL_REALM EDT.ORG
-TLS_CACERT      /etc/ssl/certs/cacert.pem
-#TLS_CACERTDIR    /etc/openldap/certs/
-#TLS_REQCERT     allow
-#SASL_NOCANON on
-```
+    ```
+    # OpenLDAP client configuration file. Used for host default settings
+
+    BASE            dc=edt,dc=org
+    URI             ldap://ldap.edt.org/
+    SASL_MECH GSSAPI
+    SASL_REALM EDT.ORG
+    TLS_CACERT      /etc/ssl/certs/cacert.pem
+    #TLS_CACERTDIR    /etc/openldap/certs/
+    #TLS_REQCERT     allow
+    #SASL_NOCANON on
+    ```
+
 - BASE: The Base branch of our Ldap DDBB (for not need -b 'dc=edt,dc=org' on ldap client utility command )
 - URI: the uri to ldap server (FQDN) (for not need -H ldap://ldap.edt.org or -h ldap.edt.org on ldap client utility command)
 - SASL_MECH: The SASL mech we will use , in our case GSSAPI ( for not need -Y GSSAPI on ldap client utility command)
