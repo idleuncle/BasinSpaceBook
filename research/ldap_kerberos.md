@@ -16,17 +16,21 @@ bidspy/scripts/init_ldap_kerberos.sh
 
 # 启动 container
 
-Create Docker Network
-docker network create --subnet 172.18.0.0/16 -d bridge ldap
+Network
 
-Run Docker LDAP
-docker run --name ldap --hostname ldap.edt.org --net ldap --ip 172.18.0.2  --detach antagme/ldap_gssapi
+    docker network create --subnet 172.18.0.0/16 -d bridge ldap
 
-Run Docker Kerberos (TGT)
-docker run --name kerberos --hostname kserver.edt.org --net ldap --ip 172.18.0.3  --detach antagme/kerberos:supervisord
+LDAP
 
-Run client
-docker run --name client --hostname client.edt.org --net ldap --ip 172.18.0.8 --detach antagme/client_gssapi
+    docker run --name ldap --hostname ldap.edt.org --net ldap --ip 172.18.0.2  --detach antagme/ldap_gssapi
+
+Kerberos (TGT)
+
+    docker run --name kerberos --hostname kserver.edt.org --net ldap --ip 172.18.0.3  --detach antagme/kerberos:supervisord
+
+client
+
+    docker run --name client --hostname client.edt.org --net ldap --ip 172.18.0.8 --detach antagme/client_gssapi
 
 
 # 设置kerberos
@@ -42,9 +46,8 @@ docker run --name client --hostname client.edt.org --net ldap --ip 172.18.0.8 --
 
     cat /var/kerberos/krb5kdc/kadm5.acl
 
-中有 */admin@EDT.ORG *
-// Note: This Means All principal entries like blablabla/admin have Admin permission.
-https://github.com/antagme/Documentation_Project/blob/master/example3.md
+中有 `*/admin@EDT.ORG *`
+// Note: This Means All principal entries like blablabla/admin have Admin 
 
 # 配置krb5
 
@@ -73,7 +76,7 @@ https://github.com/antagme/Documentation_Project/blob/master/example3.md
     edt.org = EDT.ORG
 
 
-# 如果修改了上面那些配置文件，需要重启supervisor
+note: 如果修改了上面那些配置文件，需要重启supervisor
 
     supervisorctl restart all
 
