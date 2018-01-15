@@ -50,9 +50,9 @@
 * [3. 容器存储验证\(flock/portworx\)](research/storage_wp.md)
 * [4. 持续交付设计](chi-xu-jiao-fu.md)
 * [5. 容器网络部署流程与步骤](research/swarm_deploy.md)
-* [6. ldap与kebores搭建流程与步骤](research/ldap_kebores.md)
-    * [6.1 ldap认证授权，kebores中间人](research/ldap_kebores.md)
-    * [6.2 ldap存储管理信息，kebores认证](research/ldap_kebores_2.md)
+* [6. ldap与kebores搭建流程与步骤](research/ldap_kerberos_2.md)
+    * [6.1 ldap认证授权，kebores中间人](research/ldap_kerberos.md)
+    * [6.2 ldap存储管理信息，kebores认证](research/ldap_kerberos_2.md)
 
 ## 讨论\(归档\)
 
