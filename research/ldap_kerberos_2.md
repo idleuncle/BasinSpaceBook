@@ -1,3 +1,8 @@
+# 架构图
+
+![](/assets/ldap_kerberos.png)
+
+
 # pull 镜像
 
 docker pull antagme/ldap_sssd
