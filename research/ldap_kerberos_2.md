@@ -77,7 +77,7 @@ client
     edt.org = EDT.ORG
 
 
-# 如果修改了上面那些配置文件，需要重启supervisor
+note: 如果修改了上面那些配置文件，需要重启supervisor
 
     supervisorctl restart all
 
