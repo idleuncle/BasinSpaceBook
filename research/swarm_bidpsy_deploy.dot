@@ -1,0 +1,68 @@
+digraph G {
+
+    subgraph cluster_swarm {
+        label = "bansin swarm cluster";
+        "node1"
+        "node2"
+        "node3"
+    }
+
+   subgraph cluster_proxy1 {
+        label = "proxy 1 subnet";
+        "haproxy"
+        "nginx"
+        graph[style=dotted];
+    }
+
+   subgraph cluster_proxy2 {
+        label = "proxy 2 subnet";
+        "haproxy"
+        "nginx"
+        graph[style=dotted];
+    }
+
+   subgraph cluster_project {
+
+        label = "bidspy subnet ";
+        "demo"
+        "extractor"
+        "scheduler"
+        "repository"
+        "basin-spider"
+        "udb-spider"
+
+
+        "demo" -> "basin-spider"
+        "demo" -> "scheduler"
+        "extractor" -> "scheduler"
+        "scheduler" -> "extractor"
+        "scheduler" -> "repository"
+        "basin-spider" -> "repository"
+        "repository" -> "storage"
+        "basin-spider" -> "udb-spider"
+
+    }
+
+    subgraph cluster_storage {
+        label = "storage subnet";
+        "mongodb"
+        "redis"
+        "postgres"
+    }
+
+
+    "cluster_controller" -> "cluster_swarm"  [lhead=cluster_swarm]
+    "cluster_swarm" -> "cluster_proxy1"
+    "cluster_swarm" -> "cluster_proxy2"
+    "cluster_swarm" -> "cluster_project"
+    "cluster_swarm" -> "cluster_storage"
+
+    "administrator" -> "cluster_proxy2"
+    "cluster_proxy2" -> "admin_frontend"
+    "customer" -> "cluster_proxy1"
+    "cluster_proxy1" -> "demo"
+    "cluster_project" -> "cluster_proxy1"
+    "cluster_project" -> "cluster_storage"
+    "cluster_storage" -> "cluster_project"
+
+}

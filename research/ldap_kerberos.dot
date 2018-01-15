@@ -1,0 +1,17 @@
+digraph G {
+
+   subgraph cluster_auth {
+
+        label = "auth";
+        "ldap_server" [xlabel="管理用户信息，同时实现资源访问控制"]
+        "kebores" [xlabel="认证鉴权中心"]
+        "other_machines" [xlabel="需要授权的机器"]
+        "services" [xlabel="运行在需授权机上的服务"]
+
+        "kebores" -> "ldap_server" [label="增删改查信息"]
+        "other_machines" -> "kebores" [label="进行认证"]
+        "services" -> "other_machines" [label="发起认证"]
+
+    }
+
+}
