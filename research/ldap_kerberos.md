@@ -42,8 +42,11 @@ Client: client.edt.org 172.18.0.8
 # 设置kerberos
 
     docker exec --interactive --tty kerberos bash
-
+    
+    # 创建 ldap principal 
     kadmin.local -q "addprinc -pw randkey ldap/ldap.edt.org"
+    
+    
     kadmin.local -q "addprinc -pw admin admin/admin"
     kadmin.local -q "addprinc -pw kuser01 user01"
 
