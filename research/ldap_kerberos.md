@@ -33,6 +33,12 @@ client
     docker run --name client --hostname client.edt.org --net ldap --ip 172.18.0.8 --detach antagme/client_gssapi
 
 
+# 网络
+
+LDAP Server: ldap.edt.org 172.18.0.2
+Kerberos Server: kserver.edt.org 172.18.0.3
+Client: client.edt.org 172.18.0.8
+
 # 设置kerberos
 
     docker exec --interactive --tty kerberos bash
