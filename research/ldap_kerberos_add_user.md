@@ -72,6 +72,11 @@ https://github.com/aster1sk/easyldap
 会创建user01，密码是kuser01
 
 
+获取 user01 的 ticket， 提示输入密码，输入之前设置的 kuser01
+
+    kinit user01
+
+
 注意：所有用户必须在ldap中实现创建，才能在Kerberos里添加
 
 特殊的是admin，必须提供ldap里的admin密码：
@@ -85,7 +90,7 @@ https://github.com/aster1sk/easyldap
 看了挺多文章，实在觉得kerberos只是用来做机器认证的
 kerberos+ldap的用户管理非常复杂
 
-看了很多文章，感觉下面这个提到的 ipa-server ， 统一管理用户还不错
+下面这个提到的 ipa-server ， 统一管理用户可能会好点，还没有深入看
 https://ieevee.com/tech/2016/06/21/kerberos-3.html
 
 
