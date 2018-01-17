@@ -56,7 +56,7 @@ Client: client.edt.org 172.18.0.8
     
 # ldap添加用户
 
-上面步骤创建了principal ，需要添加用户，密码不设置，因为密码由 kerberos提供
+上面步骤创建了principal ，需要在ldap添加用户，密码不设置，因为密码由 kerberos提供
 
     dn: cn=user01,ou=usuaris,dc=edt,dc=org
     objectclass: posixAccount
