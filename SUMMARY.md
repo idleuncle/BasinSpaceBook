@@ -52,8 +52,9 @@
 * [5. 容器网络部署流程与步骤](research/swarm_deploy.md)
 * [6. ldap与kerberos搭建流程与步骤](research/ldap_kerberos.md)
     * [6.1 ldap原理](research/ldap.md)
-    * [6.1 ldap添加用户组织手册](research/ldap_manual.md)
-    * [6.2 ldap+kerberos+SSSD](research/ldap_kerberos_2.md)
+    * [6.2 ldap添加用户组织手册](research/ldap_manual.md)
+    * [6.3 ldap+kerberos+SSSD](research/ldap_kerberos_2.md)
+    * [6.4 简单的添加用户的流程](research/ldap_kerberos_add_user.md)
 
 ## 讨论\(归档\)
 
