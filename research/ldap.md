@@ -137,9 +137,7 @@ EXTERNAL一般用于初始化添加schema时使用，如`ldapadd -Y EXTERNAL -H 
 
 ### 4.7 LDIF
 
-LDIF（LDAP Data Interchange Format，数据交换格式）是LDAP数据库信息的一种文本格式，用于数据的导入导出，每行都是"属性: 值"对，见 [openldap ldif格式示例][16]
-
-OpenLDAP(2.4.3x)服务器安装配置方法见[这里][17]。
+LDIF（LDAP Data Interchange Format，数据交换格式）是LDAP数据库信息的一种文本格式，用于数据的导入导出，每行都是"属性: 值"对，见 [openldap ldif格式示例]
 
 
 [2]: http://www.openldap.org/doc/admin24/intro.html
@@ -153,5 +151,3 @@ OpenLDAP(2.4.3x)服务器安装配置方法见[这里][17]。
 [13]: http://linux.die.net/man/5/slapd.backends
 [14]: http://www.openldap.org/doc/admin24/sasl.html
 [15]: http://docs.oracle.com/cd/E19957-01/820-0293/6nc1tbp0h/index.html
-[16]: http://seanlook.com/2015/01/22/openldap_ldif_example/
-[17]: http://seanlook.com/2015/01/21/openldap-install-guide-ssl/
