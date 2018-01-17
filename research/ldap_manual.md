@@ -33,7 +33,8 @@
     ldapmodify -xWD 'cn=admin,dc=example,dc=com' -f add_entry.ldif
     
     
-如果去掉`add_entry.ldif` 里的 changetype， 命令就编程
+如果去掉`add_entry.ldif` 里的 changetype， 命令就变成
+
     ldapmodify -a -xWD 'cn=admin,dc=example,dc=com' -f add_entry.ldif
 
 或者
