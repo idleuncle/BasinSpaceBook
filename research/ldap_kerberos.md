@@ -43,7 +43,7 @@ Client: client.edt.org 172.18.0.8
 
     docker exec --interactive --tty kerberos bash
     
-    # 创建ldap.edt.org的一个 ldap principal ，这个kerberos 自己的机制
+    # 创建ldap.edt.org的一个 ldap principal ，这个是kerberos 自己的机制
     kadmin.local -q "addprinc -pw randkey ldap/ldap.edt.org"
     
 # ldap添加用户
