@@ -39,13 +39,29 @@ LDAP Server: ldap.edt.org 172.18.0.2
 Kerberos Server: kserver.edt.org 172.18.0.3
 Client: client.edt.org 172.18.0.8
 
-# 设置kerberos
+# 设置kerberos  1
 
     docker exec --interactive --tty kerberos bash
     
     # 创建 ldap principal 
     kadmin.local -q "addprinc -pw randkey ldap/ldap.edt.org"
     
+# ldap添加用户
+
+上面步骤创建了principal ，需要添加用户，密码不设置，因为密码由 kerberos提供
+
+    dn: cn=user01,ou=usuaris,dc=edt,dc=org
+    objectclass: posixAccount
+    objectclass: inetOrgPerson
+    cn: user01
+    mail: user01@edt.org
+    ou: 1asix
+    uid: user01
+    uidNumber: 7001
+    gidNumber: 610
+    homeDirectory: /var/tmp/home/1asix/user01
+    
+# 设置kerberos  2
     
     kadmin.local -q "addprinc -pw admin admin/admin"
     kadmin.local -q "addprinc -pw kuser01 user01"
@@ -57,6 +73,9 @@ Client: client.edt.org 172.18.0.8
 
 中有 `*/admin@EDT.ORG *`
 // Note: This Means All principal entries like blablabla/admin have Admin 
+
+
+
 
 # 配置krb5
 
