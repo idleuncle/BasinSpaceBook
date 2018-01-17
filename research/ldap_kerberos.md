@@ -63,6 +63,8 @@ Client: client.edt.org 172.18.0.8
     
 # 设置kerberos  2
     
+添加用户   
+
     kadmin.local -q "addprinc -pw admin admin/admin"
     kadmin.local -q "addprinc -pw kuser01 user01"
 
