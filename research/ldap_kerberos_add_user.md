@@ -16,7 +16,7 @@
 1. 修改配置文件，添加新用户 `/etc/openldap/slapd.conf`
 2. 重新生成目录 `slaptest -f /etc/openldap/slapd.conf -F /etc/openldap/slapd.d/`
 3. 授权 `chown -R ldap.ldap /etc/openldap/slapd.d/`
-4. 重启
+4. 重启 `/etc/init.d/slapd restart`
 
 ### 方法二：使用ldif文件
 
