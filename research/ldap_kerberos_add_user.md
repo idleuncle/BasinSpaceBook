@@ -38,7 +38,6 @@
     cn: Pete Minsky
     sn: Pete
     ou: Marketing
-    description: sb, sx
     description: sx
     uid: pminsky
 
