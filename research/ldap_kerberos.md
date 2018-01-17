@@ -76,7 +76,6 @@ Client: client.edt.org 172.18.0.8
     kadmin.local -q "addprinc -pw admin admin/admin"
     kadmin.local -q "addprinc -pw kuser01 user01"
 
-
 验证
 
     cat /var/kerberos/krb5kdc/kadm5.acl
