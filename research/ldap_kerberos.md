@@ -45,6 +45,7 @@ Client: client.edt.org 172.18.0.8
     
     # 创建ldap.edt.org的一个 ldap principal ，这个是kerberos 自己的机制
     # http://www.microhowto.info/howto/create_a_service_principal_using_mit_kerberos.html
+    
     kadmin.local -q "addprinc -pw randkey ldap/ldap.edt.org"
     
     
