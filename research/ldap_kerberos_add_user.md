@@ -20,6 +20,8 @@
 
 ### 方法二：使用ldif文件
 
+详见：[6.2 ldap添加用户组织手册](research/ldap_manual.md)
+
 创建一个添加数据的文件（下面添加了一个组织organizationalUnit 和 一个人物person）
 
     dn: ou=Marketing, dc=example,dc=com
