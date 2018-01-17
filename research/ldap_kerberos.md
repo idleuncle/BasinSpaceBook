@@ -84,8 +84,6 @@ Client: client.edt.org 172.18.0.8
 // Note: This Means All principal entries like blablabla/admin have Admin 
 
 
-
-
 # 配置krb5
 
 3 Containers , 必须有相同的 /etc/krb5.conf
