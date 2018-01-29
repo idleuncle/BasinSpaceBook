@@ -5,6 +5,9 @@
 
 　　Kerberos的神秘之处在于，它并不要求通信双方所在的网络环境是安全的，即使通信过程中数据被截取或者篡改依然不会影响它的正常工作，它提供的认证是双向的，不仅能保证Server不被错误的Client使用，同时也能保证Client不使用错误的Server。同时Kerberos又严重依赖于时间，时间戳也是Kerberos用来保证通信安全的重要手段，这个一般通过通信双方同时访问同一个时间服务器来实现。Kerberos也能达到单点登录的效果，即当Client通过了Kerberos server的认证后，便可以访问多个Real Server。
 
+# 前提条件
+
+在协议工作前，kerberos KDC在自己数据库中已经存有各个Client和Service Server的基本信息（帐号、密码……）和自己（KDC）的密码，由于协议中的消息无法穿透防火墙，所以Kerberos协议往往用于一个组织的内部， 使其应用场景不同于X.509 PKI。
 
 # Kerberos 应用场景
 
