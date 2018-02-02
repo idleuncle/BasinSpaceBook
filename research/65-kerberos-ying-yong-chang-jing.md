@@ -13,21 +13,24 @@
 
 # Kerberos 应用场景
 
-
-YARN认证
+#### YARN认证
 目的是将YARN接入到kerberos集群里，使得：
 
 RM和NM之间能互相认证，避免混进去恶意服务；
 其他提交到YARN上的JOB必须能够通过kerberos认证，避免无证商户提交作业到YARN集群上去。
 
 
-Spark作业认证
+#### Spark作业认证
 目的是spark-submit提交作业的时候，能够接入到kerberos中，从而向YARN提交作业、访问HDFS等等。
 
 
-Hive认证
+#### Hive认证
 hive支持三种：Kerberos、LDAP、CUSTOM（自定义插件）。如果使用 Kerberos 身份验证，Thrift 客户端和 HiveServer2 以及 HiveServer2 和安全 HDFS 之间都支持身份验证。如果使用 LDAP 身份验证，仅在 Thrift 客户端和 HiveServer2 之间支持身份验证（CUSTOM类似）。
 
 
-Spark SQL Thriftserver认证
+#### Spark SQL Thriftserver认证
 目的是让不同的用户，使用不同的身份来登录beeline。
+
+
+
+
