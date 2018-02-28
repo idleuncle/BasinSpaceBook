@@ -5,13 +5,23 @@ http://jenkins.yirong.win:10000/jenkins
 
 
 ## 运行中项目
+
++ 基础镜像
+  + alpine-python: alpine 基础镜像
+  + dockercloud-haproxy: haproxy 镜像
+  + py27-ml: 机器学习基础镜像
+  + py27-spider: 爬虫依赖基础库镜像
+  + py27-ws: 网络/http请求的基础库镜像
+
 + bidspy
     + bidspy_build_all
     + bidspy_test
-    
+
 + spider
     + spider_build_all
     + spider_test
+
+## 新增项目
 
 
 ## 持续集成使用说明
@@ -43,4 +53,13 @@ http://jenkins.yirong.win:10000/jenkins
     ~~~
  编译结果见basin监控平台(待完善)
  
+## 添加新项目
+增加主要的功能点包含以下内容
+1. 项目名称
+2. 代码地址
+3. 每日构建
+4. 构建脚本
+5. 构建后操作
 
+
+在页面上增加项目
