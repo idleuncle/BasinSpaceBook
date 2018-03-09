@@ -46,9 +46,10 @@ kiwenlau/hadoop:1.0
 --replicas 1 kiwenlau/hadoop:1.0 
 
 6. 启动hadoop master 
+
 查看hadoop-master 在哪一台服务器,进入容器,执行 sh start-hadoop.sh
-> docker service ps hadoop-master( 查看在哪一台节点运行)
-> docker exec -it hadoop-master.1.7n3oerxlbmgelqjit0vnzkw86 /bin/bash (进入master容器,name名字可能不一样)
+> docker service ps hadoop-master(查看在哪一台节点运行)  
+>docker exec -it hadoop-master.1.7n3oerxlbmgelqjit0vnzkw86 /bin/bash (进入master容器,name名字可能不一样)   
 > sh start-hadoop.sh
 
 7. 测试wordcount 例子
