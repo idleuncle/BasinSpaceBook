@@ -5,7 +5,7 @@
 1. docker多机下环境完全分布式部署
 2. hadoop存储
 
-### 试验1 docker多机下完成分布式部署
+## 试验1 docker多机下完成分布式部署
 依赖:
 1. 阿里云3台服务器
     + 139.196.104.187
@@ -25,13 +25,13 @@
 
 4. 启动master容器
 > docker service create -t --name hadoop-master \
---hostname hadoop-master \
---network hadoop \
---detach=false \
---replicas 1 \
---publish mode=host,target=8088,published=8088,protocol=tcp \
---publish mode=host,target=50070,published=50070,protocol=tcp \
-kiwenlau/hadoop:1.0
+> --hostname hadoop-master \
+> --network hadoop \
+> --detach=false \
+> --replicas 1 \
+> --publish mode=host,target=8088,published=8088,protocol=tcp \
+> --publish mode=host,target=50070,published=50070,protocol=tcp \
+> kiwenlau/hadoop:1.0
 
 5. 启动slave 2个容器
 >docker service create -t --name hadoop-slave1 \
