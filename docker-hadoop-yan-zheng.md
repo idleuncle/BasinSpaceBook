@@ -45,7 +45,6 @@ kiwenlau/hadoop:1.0
 --detach=false \
 --replicas 1 kiwenlau/hadoop:1.0 
 
-
 6. 启动hadoop master 
 查看hadoop-master 在哪一台服务器,进入容器,执行 sh start-hadoop.sh
 > docker service ps hadoop-master( 查看在哪一台节点运行)
