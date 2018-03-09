@@ -39,7 +39,6 @@ kiwenlau/hadoop:1.0
 --network hadoop \
 --detach=false \
 --replicas 1 kiwenlau/hadoop:1.0 
-
 > docker service create -t --name hadoop-slave2 \
 --hostname hadoop-slave2 \
 --network hadoop \
@@ -58,4 +57,4 @@ kiwenlau/hadoop:1.0
 
 问题点:
 1. 集群部署时候,访问8080 无法访问,单机部署的时候能够正常访问(容器内部也能够访问) 待解决.
-2. 容器启动时候.挂载了存储目录,能够正常使用hdfs命令读写文件,但是再重新启动时候,hdfs命令读不到原先的文件.
+2. 容器启动时候.尝试挂载了存储目录,能够正常使用hdfs命令读写文件,但是再重新启动时候,hdfs命令读不到原先的文件.
