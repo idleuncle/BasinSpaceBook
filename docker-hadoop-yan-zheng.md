@@ -15,23 +15,33 @@
 
 ### 操作步骤:
 1. 创建srawm集群
-> docker swarm init --listen-addr 139.196.104.187:2377 --advertise-addr  139.196.104.187
+```
+docker swarm init --listen-addr 139.196.104.187:2377 \ 
+--advertise-addr  139.196.104.187
+```
+
 生成docker join token ,
 2. 其他节点执行,由第一步返回的token命令,加入到集群环境中.
-> docker swarm join --token SWMTKN-1-3sqlpjvld3xfr96vg5tqgp6p0auadjzacghvci46bvi62odmih-74iz2vw91e2sn186u5q35k026 139.196.104.187:2377 
+```
+docker swarm join --token SWMTKN-1-3sqlpjvld3xfr96vg5tqgp6p0auadjzacghvci46bvi62odmih-74iz2vw91e2sn186u5q35k026 139.196.104.187:2377 
+```
 
 3. 创建专有网络
-> docker network create --opt encrypted --driver overlay --attachable hadoop
+```
+docker network create --opt encrypted --driver overlay --attachable hadoop
+```
 
 4. 启动master容器
-> docker service create -t --name hadoop-master \
-> --hostname hadoop-master \
-> --network hadoop \
-> --detach=false \
-> --replicas 1 \
-> --publish mode=host,target=8088,published=8088,protocol=tcp \
-> --publish mode=host,target=50070,published=50070,protocol=tcp \
-> kiwenlau/hadoop:1.0
+```
+ docker service create -t --name hadoop-master \
+ --hostname hadoop-master \
+ --network hadoop \
+ --detach=false \
+ --replicas 1 \
+ --publish mode=host,target=8088,published=8088,protocol=tcp \
+ --publish mode=host,target=50070,published=50070,protocol=tcp \
+ kiwenlau/hadoop:1.0
+```
 
 5. 启动slave 2个容器
 >docker service create -t --name hadoop-slave1 \
