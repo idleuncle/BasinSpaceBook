@@ -50,7 +50,7 @@ mongodb支持开启oplog，对数据库的操作均会有记录，但该方案�
 basin对elasticsearch有多实例机制，elasticsearch暂时还没实际验证过。所以暂时没有明确方案，待考虑。
 
 
-### 参考:
+## 参考:
 1. [MySQL增量备份与恢复实例](http://seanlook.com/2014/12/05/mysql_incremental_backup_example/)
 2. [Mongodb秒级备份恢复](http://oqt2eqc1u.bkt.clouddn.com/MongoDB%E7%A7%92%E7%BA%A7%E5%A4%87%E4%BB%BD%E6%81%A2%E5%A4%8D.pdf)
 
