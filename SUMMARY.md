@@ -61,6 +61,7 @@
     * [3.1 国网国际站点分析](guo-wang-guo-ji-zhan-dian-fen-xi.md)
     * [3.2. 爬虫站点素材](pa-chong-zhan-dian-su-cai.md)
     * [3.3. 国网国际爬虫站点素材](guo-wang-guo-ji-pa-chong-zhan-dian-su-cai.md)
+* [4. 数据备份保障方案](shu-ju-bei-fen-bao-zhang-fang-an.md)
 
 ## 从零开始构建BasinSpace
 * [归档日志](bidspy_gui-dang-info.md)
