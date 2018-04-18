@@ -390,18 +390,6 @@
     "url": "http://www.hangzhou.gov.cn"
   },
   {
-    "title": "搜狐教育-搜狐",
-    "url": "http://learning.sohu.com"
-  },
-  {
-    "title": "【学术之家】学术杂志订阅—学术期刊服务网站",
-    "url": "http://www.xueshu.com"
-  },
-  {
-    "title": "【58同城 58.com】合肥分类信息 - 本地 免费 高效",
-    "url": "http://hf.58.com"
-  },
-  {
     "title": "新疆政府采购网",
     "url": "http://zfcg.xjcz.gov.cn"
   },
@@ -414,7 +402,7 @@
     "url": "http://wssp.hebcz.gov.cn"
   },
   {
-    "title": "\r\n        å±±ä¸œæ‹›æ ‡ç½‘-å±±ä¸œæ”¿åºœé‡‡è´­å»ºè®¾å·¥ç¨‹ç½‘",
+    "title": "山东招标网",
     "url": "http://sd.bidcenter.com.cn"
   },
   {
@@ -422,12 +410,12 @@
     "url": "http://www.wuzhou.gov.cn"
   },
   {
-    "title": "Non",
-    "url": "http://www.gc-zb.com"
+    "title": "中国招标与采购网",
+    "url": "http://www.gc-zb.com/info/lists/pid/9.html"
   },
   {
-    "title": "IIS7",
-    "url": "http://xyggzy.jiangxi.gov.cn"
+    "title": "江西省公共资源",
+    "url": "http://xyggzy.jiangxi.gov.cn/xyzbw/zcfg/"
   },
   {
     "title": "江西省招标网-江西省招标采购信息|江西省建设工程项目|招标网",
@@ -446,36 +434,20 @@
     "url": "http://www.sqggzy.com"
   },
   {
-    "title": "Non",
-    "url": "http://www.cnztb.com.cn"
+    "title": "苍南县公共资源交易中心",
+    "url": "http://www.cnztb.com.cn/TPFront/jyxx/004001/004001001/"
   },
   {
-    "title": "提示",
-    "url": "http://www.zszfcg.gov.cn"
-  },
-  {
-    "title": "中国安装信息网-建筑安装、工程项目、招标采购、设备材料工具供求、价格行情、企业库信息服务平台，最权威的建筑安装行业门户",
-    "url": "http://www.zgazxxw.com"
-  },
-  {
-    "title": "39药品通_药品查询_药品价格查询_专业全面的国内外药品查询网站",
-    "url": "http://ypk.39.net"
-  },
-  {
-    "title": "Non",
-    "url": "http://www.dayawan.gov.cn"
+    "title": "舟山市财政局",
+    "url": "http://www.zszfcg.gov.cn/news/94.html"
   },
   {
     "title": "湖南省交通运输厅",
-    "url": "http://www.hnjt.gov.cn"
+    "url": "http://www.hnjt.gov.cn/xxgk/zbzb/zbgg/"
   },
   {
     "title": "福建省政府采购网",
     "url": "http://ccgp-fujian.gov.cn"
-  },
-  {
-    "title": "Non",
-    "url": "http://aqxxgk.anqing.gov.cn"
   },
   {
     "title": "嘉兴学院采购中心",
@@ -486,8 +458,8 @@
     "url": "http://www.lazfcg.gov.cn"
   },
   {
-    "title": "\r\n        å±±è¥¿æ‹›æ ‡ç½‘-å±±è¥¿æ”¿åºœé‡‡è´­å»ºè®¾å·¥ç¨‹ç½‘",
-    "url": "http://sxs.bidcenter.com.cn"
+    "title": "山西招标网",
+    "url": "http://sxs.bidcenter.com.cn/diqumore-1-1.html"
   },
   {
     "title": "巴音郭楞蒙古自治州邮政管理局",
@@ -506,10 +478,6 @@
     "url": "http://www.ahbc.com.cn"
   },
   {
-    "title": "百度拇指医生 - 提供专业、及时、准确的健康咨询服务",
-    "url": "http://muzhi.baidu.com"
-  },
-  {
     "title": "建设招标网 官方网站",
     "url": "http://www.jszhaobiao.com"
   },
@@ -518,7 +486,7 @@
     "url": "http://60222346.zhujianpt.com"
   },
   {
-    "title": "\r\n\t河南招标投标网—河南招标网 \r\n",
+    "title": "河南招标投标网—河南招标网",
     "url": "http://www.hnzbtb.com"
   },
   {
@@ -1018,56 +986,36 @@
     "url": "http://www.wzzbtb.com"
   },
   {
-    "title": "\r\n晋城财政信息网\r\n",
+    "title": "晋城财政信息网",
     "url": "http://www.sxjccz.gov.cn"
   },
   {
     "title": "中国招标投标协会",
-    "url": "http://www.ctba.org.cn"
+    "url": "http://www.ctba.org.cn/news_list.jsp?tn=ZDXW"
   },
   {
     "title": "阜蒙县政府门户站",
-    "url": "http://www.fmx.gov.cn"
-  },
-  {
-    "title": "【康爱多网上药店】-药品网购,网上买药就上排名前列并提供医药网资讯的康爱多药品网",
-    "url": "http://www.360kad.com"
-  },
-  {
-    "title": "鸿商网-b2b电子商务网站,免费b2b电子商务平台,b2b供求信息,企业产品信息发布",
-    "url": "http://www.591237.com"
+    "url": "http://www.fmx.gov.cn/zsyz/zsxm/list.html"
   },
   {
     "title": "陕西采购与招标网、陕西省招标投标协会网",
-    "url": "http://www.sntba.com"
+    "url": "http://www.sntba.com/website/news_list.aspx?category_id=53"
   },
   {
-    "title": "Non",
-    "url": "http://www.rmfysszc.gov.cn"
-  },
-  {
-    "title": "招标_招标网_工程建设招标_工程招标公告_中国住建网",
-    "url": "http://www.zhujianpt.com"
-  },
-  {
-    "title": "Non",
-    "url": "http://www.zt.gov.cn"
-  },
-  {
-    "title": "Non",
-    "url": "http://www.huishan.gov.cn"
+    "title": "法院诉讼资产网",
+    "url": "http://www1.rmfysszc.gov.cn/News/Pmgg.shtml"
   },
   {
     "title": "广西百色政府采购网",
-    "url": "http://www.baisecaigou.gov.cn"
+    "url": "http://www.baisecaigou.gov.cn/index.php/cms/item-list-category-1305.shtml"
   },
   {
     "title": "防城港市政府采购网",
-    "url": "http://www.fcgszfcg.gov.cn"
+    "url": "http://www.fcgszfcg.gov.cn/cpurchase/5.aspx"
   },
   {
     "title": "湖北招标网-湖北招标信息网,湖北招标信息,湖北政府招标网,湖北工程招标,湖北绿化招标",
-    "url": "http://www.hbzbw.com"
+    "url": "http://www.hbzbw.com/zhaobiao_gc.asp"
   },
   {
     "title": "山西省财政厅政府采购管理处",
